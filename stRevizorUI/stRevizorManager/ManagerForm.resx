@@ -1,0 +1,3221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="timerDrop.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>288, 17</value>
+  </metadata>
+  <metadata name="fileSystemWatch.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>389, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>894, 376</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBoxLoadWait.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBoxLoadWait.Location" type="System.Drawing.Point, System.Drawing">
+    <value>841, 8</value>
+  </data>
+  <data name="pictureBoxLoadWait.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="pictureBoxLoadWait.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBoxLoadWait.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxLoadWait.Name" xml:space="preserve">
+    <value>pictureBoxLoadWait</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxLoadWait.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxLoadWait.Parent" xml:space="preserve">
+    <value>flatGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxLoadWait.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="flatLabel44.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel44.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>456, 18</value>
+  </data>
+  <data name="flatLabel44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 13</value>
+  </data>
+  <data name="flatLabel44.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;flatLabel44.Name" xml:space="preserve">
+    <value>flatLabel44</value>
+  </data>
+  <data name="&gt;&gt;flatLabel44.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel44.Parent" xml:space="preserve">
+    <value>flatGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;flatLabel44.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="flatLabel45.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel45.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel45.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 18</value>
+  </data>
+  <data name="flatLabel45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 13</value>
+  </data>
+  <data name="flatLabel45.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="flatLabel45.Text" xml:space="preserve">
+    <value>обновлен на сервере:</value>
+  </data>
+  <data name="&gt;&gt;flatLabel45.Name" xml:space="preserve">
+    <value>flatLabel45</value>
+  </data>
+  <data name="&gt;&gt;flatLabel45.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel45.Parent" xml:space="preserve">
+    <value>flatGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;flatLabel45.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="flatLabel43.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel43.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 18</value>
+  </data>
+  <data name="flatLabel43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="flatLabel43.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;flatLabel43.Name" xml:space="preserve">
+    <value>flatLabel43</value>
+  </data>
+  <data name="&gt;&gt;flatLabel43.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel43.Parent" xml:space="preserve">
+    <value>flatGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;flatLabel43.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="flatLabel63.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel63.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel63.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel63.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 18</value>
+  </data>
+  <data name="flatLabel63.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="flatLabel63.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="flatLabel63.Text" xml:space="preserve">
+    <value>дата реестра:</value>
+  </data>
+  <data name="&gt;&gt;flatLabel63.Name" xml:space="preserve">
+    <value>flatLabel63</value>
+  </data>
+  <data name="&gt;&gt;flatLabel63.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel63.Parent" xml:space="preserve">
+    <value>flatGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;flatLabel63.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="flatGroupBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="flatGroupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 50</value>
+  </data>
+  <data name="flatGroupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="flatGroupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>888, 52</value>
+  </data>
+  <data name="flatGroupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="flatGroupBox3.Text" xml:space="preserve">
+    <value>Обновления</value>
+  </data>
+  <data name="&gt;&gt;flatGroupBox3.Name" xml:space="preserve">
+    <value>flatGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;flatGroupBox3.Type" xml:space="preserve">
+    <value>stCoreUI.FlatGroupBox, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatGroupBox3.Parent" xml:space="preserve">
+    <value>formSkinMain</value>
+  </data>
+  <data name="&gt;&gt;flatGroupBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="flatButtonReload.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="flatButtonReload.Location" type="System.Drawing.Point, System.Drawing">
+    <value>696, 51</value>
+  </data>
+  <data name="flatButtonReload.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 42</value>
+  </data>
+  <data name="flatButtonReload.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="flatButtonReload.Text" xml:space="preserve">
+    <value>обновить статстику</value>
+  </data>
+  <data name="&gt;&gt;flatButtonReload.Name" xml:space="preserve">
+    <value>flatButtonReload</value>
+  </data>
+  <data name="&gt;&gt;flatButtonReload.Type" xml:space="preserve">
+    <value>stCoreUI.FlatButton, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatButtonReload.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;flatButtonReload.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="flatLabel33.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel33.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>696, 143</value>
+  </data>
+  <data name="flatLabel33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 50</value>
+  </data>
+  <data name="flatLabel33.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="flatLabel33.Text" xml:space="preserve">
+    <value>Блокировать весь трафик клиенской сети, выбор в минутах.</value>
+  </data>
+  <data name="&gt;&gt;flatLabel33.Name" xml:space="preserve">
+    <value>flatLabel33</value>
+  </data>
+  <data name="&gt;&gt;flatLabel33.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel33.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;flatLabel33.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="flatButtonTimerDrop.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="flatButtonTimerDrop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>696, 95</value>
+  </data>
+  <data name="flatButtonTimerDrop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 42</value>
+  </data>
+  <data name="flatButtonTimerDrop.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;flatButtonTimerDrop.Name" xml:space="preserve">
+    <value>flatButtonTimerDrop</value>
+  </data>
+  <data name="&gt;&gt;flatButtonTimerDrop.Type" xml:space="preserve">
+    <value>stCoreUI.FlatButton, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatButtonTimerDrop.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;flatButtonTimerDrop.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="flatNumericTimerDrop.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="flatNumericTimerDrop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>794, 101</value>
+  </data>
+  <data name="flatNumericTimerDrop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 30</value>
+  </data>
+  <data name="flatNumericTimerDrop.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;flatNumericTimerDrop.Name" xml:space="preserve">
+    <value>flatNumericTimerDrop</value>
+  </data>
+  <data name="&gt;&gt;flatNumericTimerDrop.Type" xml:space="preserve">
+    <value>stCoreUI.FlatNumeric, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatNumericTimerDrop.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;flatNumericTimerDrop.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="flatButtonStartStop.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="flatButtonStartStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>696, 7</value>
+  </data>
+  <data name="flatButtonStartStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 42</value>
+  </data>
+  <data name="flatButtonStartStop.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;flatButtonStartStop.Name" xml:space="preserve">
+    <value>flatButtonStartStop</value>
+  </data>
+  <data name="&gt;&gt;flatButtonStartStop.Type" xml:space="preserve">
+    <value>stCoreUI.FlatButton, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatButtonStartStop.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;flatButtonStartStop.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="flatAlertBoxInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatAlertBoxInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 7</value>
+  </data>
+  <data name="flatAlertBoxInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>690, 42</value>
+  </data>
+  <data name="flatAlertBoxInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="flatAlertBoxInfo.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;flatAlertBoxInfo.Name" xml:space="preserve">
+    <value>flatAlertBoxInfo</value>
+  </data>
+  <data name="&gt;&gt;flatAlertBoxInfo.Type" xml:space="preserve">
+    <value>stCoreUI.FlatAlertBox, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatAlertBoxInfo.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;flatAlertBoxInfo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="flatLabel40.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel40.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 18</value>
+  </data>
+  <data name="flatLabel40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 13</value>
+  </data>
+  <data name="flatLabel40.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;flatLabel40.Name" xml:space="preserve">
+    <value>flatLabel40</value>
+  </data>
+  <data name="&gt;&gt;flatLabel40.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel40.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel40.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="flatLabel41.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel41.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel41.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 18</value>
+  </data>
+  <data name="flatLabel41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="flatLabel41.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="flatLabel41.Text" xml:space="preserve">
+    <value>директория:</value>
+  </data>
+  <data name="&gt;&gt;flatLabel41.Name" xml:space="preserve">
+    <value>flatLabel41</value>
+  </data>
+  <data name="&gt;&gt;flatLabel41.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel41.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel41.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="flatLabel38.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <metadata name="ServerInfoBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>113, 17</value>
+  </metadata>
+  <data name="flatLabel38.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel38.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 33</value>
+  </data>
+  <data name="flatLabel38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>11, 13</value>
+  </data>
+  <data name="flatLabel38.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="flatLabel38.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;flatLabel38.Name" xml:space="preserve">
+    <value>flatLabel38</value>
+  </data>
+  <data name="&gt;&gt;flatLabel38.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel38.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel38.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="flatLabel39.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel39.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel39.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 33</value>
+  </data>
+  <data name="flatLabel39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="flatLabel39.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="flatLabel39.Text" xml:space="preserve">
+    <value>фильтр сети:</value>
+  </data>
+  <data name="&gt;&gt;flatLabel39.Name" xml:space="preserve">
+    <value>flatLabel39</value>
+  </data>
+  <data name="&gt;&gt;flatLabel39.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel39.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel39.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="flatLabel36.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel36.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel36.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>570, 116</value>
+  </data>
+  <data name="flatLabel36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>11, 13</value>
+  </data>
+  <data name="flatLabel36.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="flatLabel36.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;flatLabel36.Name" xml:space="preserve">
+    <value>flatLabel36</value>
+  </data>
+  <data name="&gt;&gt;flatLabel36.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel36.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel36.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="flatLabel37.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel37.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel37.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>517, 114</value>
+  </data>
+  <data name="flatLabel37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="flatLabel37.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="flatLabel37.Text" xml:space="preserve">
+    <value>фильтр:</value>
+  </data>
+  <data name="&gt;&gt;flatLabel37.Name" xml:space="preserve">
+    <value>flatLabel37</value>
+  </data>
+  <data name="&gt;&gt;flatLabel37.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel37.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel37.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="flatLabel34.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel34.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 114</value>
+  </data>
+  <data name="flatLabel34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>11, 13</value>
+  </data>
+  <data name="flatLabel34.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="flatLabel34.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;flatLabel34.Name" xml:space="preserve">
+    <value>flatLabel34</value>
+  </data>
+  <data name="&gt;&gt;flatLabel34.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel34.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel34.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="flatLabel35.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel35.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel35.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>355, 114</value>
+  </data>
+  <data name="flatLabel35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="flatLabel35.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="flatLabel35.Text" xml:space="preserve">
+    <value>фильтр:</value>
+  </data>
+  <data name="&gt;&gt;flatLabel35.Name" xml:space="preserve">
+    <value>flatLabel35</value>
+  </data>
+  <data name="&gt;&gt;flatLabel35.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel35.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel35.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="flatLabel31.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel31.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>570, 101</value>
+  </data>
+  <data name="flatLabel31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="flatLabel31.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="flatLabel31.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flatLabel31.Name" xml:space="preserve">
+    <value>flatLabel31</value>
+  </data>
+  <data name="&gt;&gt;flatLabel31.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel31.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel31.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="flatLabel32.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel32.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>517, 101</value>
+  </data>
+  <data name="flatLabel32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="flatLabel32.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="flatLabel32.Text" xml:space="preserve">
+    <value>wildcard:</value>
+  </data>
+  <data name="&gt;&gt;flatLabel32.Name" xml:space="preserve">
+    <value>flatLabel32</value>
+  </data>
+  <data name="&gt;&gt;flatLabel32.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel32.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel32.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="flatLabel30.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel30.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel30.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 101</value>
+  </data>
+  <data name="flatLabel30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="flatLabel30.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="flatLabel30.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flatLabel30.Name" xml:space="preserve">
+    <value>flatLabel30</value>
+  </data>
+  <data name="&gt;&gt;flatLabel30.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel30.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel30.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="flatLabel29.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel29.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>570, 88</value>
+  </data>
+  <data name="flatLabel29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="flatLabel29.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="flatLabel29.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flatLabel29.Name" xml:space="preserve">
+    <value>flatLabel29</value>
+  </data>
+  <data name="&gt;&gt;flatLabel29.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel29.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel29.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="flatLabel27.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel27.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 88</value>
+  </data>
+  <data name="flatLabel27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="flatLabel27.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="flatLabel27.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flatLabel27.Name" xml:space="preserve">
+    <value>flatLabel27</value>
+  </data>
+  <data name="&gt;&gt;flatLabel27.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel27.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel27.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="flatLabel25.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 73</value>
+  </data>
+  <data name="flatLabel25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="flatLabel25.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="flatLabel25.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flatLabel25.Name" xml:space="preserve">
+    <value>flatLabel25</value>
+  </data>
+  <data name="&gt;&gt;flatLabel25.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel25.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel25.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="flatLabel26.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>517, 88</value>
+  </data>
+  <data name="flatLabel26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="flatLabel26.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="flatLabel26.Text" xml:space="preserve">
+    <value>hosts:</value>
+  </data>
+  <data name="&gt;&gt;flatLabel26.Name" xml:space="preserve">
+    <value>flatLabel26</value>
+  </data>
+  <data name="&gt;&gt;flatLabel26.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel26.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel26.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="flatLabel28.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel28.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 51</value>
+  </data>
+  <data name="flatLabel28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 13</value>
+  </data>
+  <data name="flatLabel28.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="flatLabel28.Text" xml:space="preserve">
+    <value>статистика базы DNS</value>
+  </data>
+  <data name="&gt;&gt;flatLabel28.Name" xml:space="preserve">
+    <value>flatLabel28</value>
+  </data>
+  <data name="&gt;&gt;flatLabel28.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel28.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel28.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="flatLabel24.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>355, 101</value>
+  </data>
+  <data name="flatLabel24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 13</value>
+  </data>
+  <data name="flatLabel24.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="flatLabel24.Text" xml:space="preserve">
+    <value>URI:</value>
+  </data>
+  <data name="&gt;&gt;flatLabel24.Name" xml:space="preserve">
+    <value>flatLabel24</value>
+  </data>
+  <data name="&gt;&gt;flatLabel24.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel24.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel24.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="flatLabel23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>355, 88</value>
+  </data>
+  <data name="flatLabel23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="flatLabel23.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="flatLabel23.Text" xml:space="preserve">
+    <value>hosts:</value>
+  </data>
+  <data name="&gt;&gt;flatLabel23.Name" xml:space="preserve">
+    <value>flatLabel23</value>
+  </data>
+  <data name="&gt;&gt;flatLabel23.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel23.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel23.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="flatLabel22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>355, 75</value>
+  </data>
+  <data name="flatLabel22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="flatLabel22.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="flatLabel22.Text" xml:space="preserve">
+    <value>ports:</value>
+  </data>
+  <data name="&gt;&gt;flatLabel22.Name" xml:space="preserve">
+    <value>flatLabel22</value>
+  </data>
+  <data name="&gt;&gt;flatLabel22.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel22.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel22.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="flatLabel21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 51</value>
+  </data>
+  <data name="flatLabel21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 13</value>
+  </data>
+  <data name="flatLabel21.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="flatLabel21.Text" xml:space="preserve">
+    <value>статистика базы URL</value>
+  </data>
+  <data name="&gt;&gt;flatLabel21.Name" xml:space="preserve">
+    <value>flatLabel21</value>
+  </data>
+  <data name="&gt;&gt;flatLabel21.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel21.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel21.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="flatLabel20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 20</value>
+  </data>
+  <data name="flatLabel20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="flatLabel20.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="flatLabel20.Text" xml:space="preserve">
+    <value>адрес сервера:</value>
+  </data>
+  <data name="&gt;&gt;flatLabel20.Name" xml:space="preserve">
+    <value>flatLabel20</value>
+  </data>
+  <data name="&gt;&gt;flatLabel20.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel20.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel20.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="flatLabel19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 20</value>
+  </data>
+  <data name="flatLabel19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 13</value>
+  </data>
+  <data name="flatLabel19.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;flatLabel19.Name" xml:space="preserve">
+    <value>flatLabel19</value>
+  </data>
+  <data name="&gt;&gt;flatLabel19.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel19.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel19.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="flatLabel17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 116</value>
+  </data>
+  <data name="flatLabel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 13</value>
+  </data>
+  <data name="flatLabel17.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="flatLabel17.Text" xml:space="preserve">
+    <value>дата загруженного реестра</value>
+  </data>
+  <data name="&gt;&gt;flatLabel17.Name" xml:space="preserve">
+    <value>flatLabel17</value>
+  </data>
+  <data name="&gt;&gt;flatLabel17.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel17.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel17.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="flatLabel18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 116</value>
+  </data>
+  <data name="flatLabel18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="flatLabel18.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;flatLabel18.Name" xml:space="preserve">
+    <value>flatLabel18</value>
+  </data>
+  <data name="&gt;&gt;flatLabel18.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel18.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel18.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="flatLabel15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 103</value>
+  </data>
+  <data name="flatLabel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 13</value>
+  </data>
+  <data name="flatLabel15.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="flatLabel15.Text" xml:space="preserve">
+    <value>парсер XML реестра</value>
+  </data>
+  <data name="&gt;&gt;flatLabel15.Name" xml:space="preserve">
+    <value>flatLabel15</value>
+  </data>
+  <data name="&gt;&gt;flatLabel15.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel15.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel15.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="flatLabel16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 103</value>
+  </data>
+  <data name="flatLabel16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="flatLabel16.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="flatLabel16.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flatLabel16.Name" xml:space="preserve">
+    <value>flatLabel16</value>
+  </data>
+  <data name="&gt;&gt;flatLabel16.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel16.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel16.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="flatLabel13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 90</value>
+  </data>
+  <data name="flatLabel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="flatLabel13.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="flatLabel13.Text" xml:space="preserve">
+    <value>фильтр URL</value>
+  </data>
+  <data name="&gt;&gt;flatLabel13.Name" xml:space="preserve">
+    <value>flatLabel13</value>
+  </data>
+  <data name="&gt;&gt;flatLabel13.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel13.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel13.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="flatLabel14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 90</value>
+  </data>
+  <data name="flatLabel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="flatLabel14.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="flatLabel14.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flatLabel14.Name" xml:space="preserve">
+    <value>flatLabel14</value>
+  </data>
+  <data name="&gt;&gt;flatLabel14.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel14.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel14.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="flatLabel11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 77</value>
+  </data>
+  <data name="flatLabel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="flatLabel11.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="flatLabel11.Text" xml:space="preserve">
+    <value>фильтр DNS</value>
+  </data>
+  <data name="&gt;&gt;flatLabel11.Name" xml:space="preserve">
+    <value>flatLabel11</value>
+  </data>
+  <data name="&gt;&gt;flatLabel11.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel11.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel11.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="flatLabel12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 77</value>
+  </data>
+  <data name="flatLabel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="flatLabel12.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="flatLabel12.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flatLabel12.Name" xml:space="preserve">
+    <value>flatLabel12</value>
+  </data>
+  <data name="&gt;&gt;flatLabel12.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel12.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel12.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="flatLabel9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 64</value>
+  </data>
+  <data name="flatLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 13</value>
+  </data>
+  <data name="flatLabel9.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="flatLabel9.Text" xml:space="preserve">
+    <value>поддержка ipset</value>
+  </data>
+  <data name="&gt;&gt;flatLabel9.Name" xml:space="preserve">
+    <value>flatLabel9</value>
+  </data>
+  <data name="&gt;&gt;flatLabel9.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel9.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel9.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="flatLabel10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 64</value>
+  </data>
+  <data name="flatLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="flatLabel10.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="flatLabel10.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flatLabel10.Name" xml:space="preserve">
+    <value>flatLabel10</value>
+  </data>
+  <data name="&gt;&gt;flatLabel10.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel10.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel10.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="flatLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 51</value>
+  </data>
+  <data name="flatLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="flatLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="flatLabel7.Text" xml:space="preserve">
+    <value>поддержка iptables</value>
+  </data>
+  <data name="&gt;&gt;flatLabel7.Name" xml:space="preserve">
+    <value>flatLabel7</value>
+  </data>
+  <data name="&gt;&gt;flatLabel7.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel7.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel7.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="flatLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 51</value>
+  </data>
+  <data name="flatLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="flatLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="flatLabel8.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flatLabel8.Name" xml:space="preserve">
+    <value>flatLabel8</value>
+  </data>
+  <data name="&gt;&gt;flatLabel8.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel8.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel8.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="flatLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 38</value>
+  </data>
+  <data name="flatLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 13</value>
+  </data>
+  <data name="flatLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="flatLabel6.Text" xml:space="preserve">
+    <value>поддержка ip filter</value>
+  </data>
+  <data name="&gt;&gt;flatLabel6.Name" xml:space="preserve">
+    <value>flatLabel6</value>
+  </data>
+  <data name="&gt;&gt;flatLabel6.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel6.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel6.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="flatLabel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 38</value>
+  </data>
+  <data name="flatLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="flatLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="flatLabel5.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flatLabel5.Name" xml:space="preserve">
+    <value>flatLabel5</value>
+  </data>
+  <data name="&gt;&gt;flatLabel5.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel5.Parent" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatLabel5.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="flatGroupBoxServaerInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="flatGroupBoxServaerInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 55</value>
+  </data>
+  <data name="flatGroupBoxServaerInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>687, 148</value>
+  </data>
+  <data name="flatGroupBoxServaerInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="flatGroupBoxServaerInfo.Text" xml:space="preserve">
+    <value>Сервер</value>
+  </data>
+  <data name="&gt;&gt;flatGroupBoxServaerInfo.Name" xml:space="preserve">
+    <value>flatGroupBoxServaerInfo</value>
+  </data>
+  <data name="&gt;&gt;flatGroupBoxServaerInfo.Type" xml:space="preserve">
+    <value>stCoreUI.FlatGroupBox, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatGroupBoxServaerInfo.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;flatGroupBoxServaerInfo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 44</value>
+  </data>
+  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>880, 203</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Управление</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>flatTabControlMain</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="flatLabel42.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel42.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 116</value>
+  </data>
+  <data name="flatLabel42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 33</value>
+  </data>
+  <data name="flatLabel42.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="flatLabel42.Text" xml:space="preserve">
+    <value>записывать лог файл, детали нахдяться на вкладке 'Лог'</value>
+  </data>
+  <data name="&gt;&gt;flatLabel42.Name" xml:space="preserve">
+    <value>flatLabel42</value>
+  </data>
+  <data name="&gt;&gt;flatLabel42.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel42.Parent" xml:space="preserve">
+    <value>flatGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;flatLabel42.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="flatToggle1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="flatToggle1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 116</value>
+  </data>
+  <data name="flatToggle1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 33</value>
+  </data>
+  <data name="flatToggle1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;flatToggle1.Name" xml:space="preserve">
+    <value>flatToggle1</value>
+  </data>
+  <data name="&gt;&gt;flatToggle1.Type" xml:space="preserve">
+    <value>stCoreUI.FlatToggle, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatToggle1.Parent" xml:space="preserve">
+    <value>flatGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;flatToggle1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="flatLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 75</value>
+  </data>
+  <data name="flatLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 29</value>
+  </data>
+  <data name="flatLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="flatLabel1.Text" xml:space="preserve">
+    <value>директория где ищеться файл реестра РосКомНадзора, после обработки он будет удален!</value>
+  </data>
+  <data name="&gt;&gt;flatLabel1.Name" xml:space="preserve">
+    <value>flatLabel1</value>
+  </data>
+  <data name="&gt;&gt;flatLabel1.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel1.Parent" xml:space="preserve">
+    <value>flatGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;flatLabel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pictureBoxFolder.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="pictureBoxFolder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBoxFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 39</value>
+  </data>
+  <data name="pictureBoxFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 27</value>
+  </data>
+  <data name="pictureBoxFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxFolder.Name" xml:space="preserve">
+    <value>pictureBoxFolder</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxFolder.Parent" xml:space="preserve">
+    <value>flatGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxFolder.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="flatTextBoxFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 40</value>
+  </data>
+  <data name="flatTextBoxFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 29</value>
+  </data>
+  <data name="flatTextBoxFolder.SpellMark" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAD9zdENvcmUsIFZlcnNpb249MS4wLjEuNDA3LCBDdWx0dXJlPW5l
+        dXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwEAQAAAHhTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5M
+        aXN0YDFbW3N0Q29yZS5UeHRQb3NpdGlvbiwgc3RDb3JlLCBWZXJzaW9uPTEuMC4xLjQwNywgQ3VsdHVy
+        ZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsXV0DAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgQA
+        ABRzdENvcmUuVHh0UG9zaXRpb25bXQIAAAAICAkDAAAAAAAAAAAAAAAHAwAAAAABAAAAAAAAAAQSc3RD
+        b3JlLlR4dFBvc2l0aW9uAgAAAAs=
+</value>
+  </data>
+  <data name="flatTextBoxFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;flatTextBoxFolder.Name" xml:space="preserve">
+    <value>flatTextBoxFolder</value>
+  </data>
+  <data name="&gt;&gt;flatTextBoxFolder.Type" xml:space="preserve">
+    <value>stCoreUI.FlatTextBox, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatTextBoxFolder.Parent" xml:space="preserve">
+    <value>flatGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;flatTextBoxFolder.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="flatGroupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="flatGroupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>442, 4</value>
+  </data>
+  <data name="flatGroupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 194</value>
+  </data>
+  <data name="flatGroupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="flatGroupBox2.Text" xml:space="preserve">
+    <value>Файлы</value>
+  </data>
+  <data name="&gt;&gt;flatGroupBox2.Name" xml:space="preserve">
+    <value>flatGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;flatGroupBox2.Type" xml:space="preserve">
+    <value>stCoreUI.FlatGroupBox, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatGroupBox2.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;flatGroupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="flatButtonSave.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="flatButtonSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 143</value>
+  </data>
+  <data name="flatButtonSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 34</value>
+  </data>
+  <data name="flatButtonSave.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="flatButtonSave.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="&gt;&gt;flatButtonSave.Name" xml:space="preserve">
+    <value>flatButtonSave</value>
+  </data>
+  <data name="&gt;&gt;flatButtonSave.Type" xml:space="preserve">
+    <value>stCoreUI.FlatButton, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatButtonSave.Parent" xml:space="preserve">
+    <value>flatGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;flatButtonSave.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="flatLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 114</value>
+  </data>
+  <data name="flatLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="flatLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="flatLabel4.Text" xml:space="preserve">
+    <value>FTP пароль:</value>
+  </data>
+  <data name="&gt;&gt;flatLabel4.Name" xml:space="preserve">
+    <value>flatLabel4</value>
+  </data>
+  <data name="&gt;&gt;flatLabel4.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel4.Parent" xml:space="preserve">
+    <value>flatGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;flatLabel4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="flatLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 82</value>
+  </data>
+  <data name="flatLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="flatLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="flatLabel3.Text" xml:space="preserve">
+    <value>FTP логин:</value>
+  </data>
+  <data name="&gt;&gt;flatLabel3.Name" xml:space="preserve">
+    <value>flatLabel3</value>
+  </data>
+  <data name="&gt;&gt;flatLabel3.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel3.Parent" xml:space="preserve">
+    <value>flatGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;flatLabel3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="flatLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="flatLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 46</value>
+  </data>
+  <data name="flatLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 13</value>
+  </data>
+  <data name="flatLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="flatLabel2.Text" xml:space="preserve">
+    <value>DNS/IP адрес сервера:</value>
+  </data>
+  <data name="&gt;&gt;flatLabel2.Name" xml:space="preserve">
+    <value>flatLabel2</value>
+  </data>
+  <data name="&gt;&gt;flatLabel2.Type" xml:space="preserve">
+    <value>stCoreUI.FlatLabel, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel2.Parent" xml:space="preserve">
+    <value>flatGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;flatLabel2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="flatRadioButtonFTP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="flatRadioButtonFTP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 143</value>
+  </data>
+  <data name="flatRadioButtonFTP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 22</value>
+  </data>
+  <data name="flatRadioButtonFTP.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="flatRadioButtonFTP.Text" xml:space="preserve">
+    <value>FTP</value>
+  </data>
+  <data name="&gt;&gt;flatRadioButtonFTP.Name" xml:space="preserve">
+    <value>flatRadioButtonFTP</value>
+  </data>
+  <data name="&gt;&gt;flatRadioButtonFTP.Type" xml:space="preserve">
+    <value>stCoreUI.FlatRadioButton, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatRadioButtonFTP.Parent" xml:space="preserve">
+    <value>flatGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;flatRadioButtonFTP.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="flatRadioButtonTFTP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="flatRadioButtonTFTP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 143</value>
+  </data>
+  <data name="flatRadioButtonTFTP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 22</value>
+  </data>
+  <data name="flatRadioButtonTFTP.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="flatRadioButtonTFTP.Text" xml:space="preserve">
+    <value>TFTP</value>
+  </data>
+  <data name="&gt;&gt;flatRadioButtonTFTP.Name" xml:space="preserve">
+    <value>flatRadioButtonTFTP</value>
+  </data>
+  <data name="&gt;&gt;flatRadioButtonTFTP.Type" xml:space="preserve">
+    <value>stCoreUI.FlatRadioButton, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatRadioButtonTFTP.Parent" xml:space="preserve">
+    <value>flatGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;flatRadioButtonTFTP.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="flatTextBoxServerFTPPass.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="flatTextBoxServerFTPPass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 108</value>
+  </data>
+  <data name="flatTextBoxServerFTPPass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 29</value>
+  </data>
+  <data name="flatTextBoxServerFTPPass.SpellMark" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAD9zdENvcmUsIFZlcnNpb249MS4wLjEuNDA3LCBDdWx0dXJlPW5l
+        dXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwEAQAAAHhTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5M
+        aXN0YDFbW3N0Q29yZS5UeHRQb3NpdGlvbiwgc3RDb3JlLCBWZXJzaW9uPTEuMC4xLjQwNywgQ3VsdHVy
+        ZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsXV0DAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgQA
+        ABRzdENvcmUuVHh0UG9zaXRpb25bXQIAAAAICAkDAAAAAAAAAAAAAAAHAwAAAAABAAAAAAAAAAQSc3RD
+        b3JlLlR4dFBvc2l0aW9uAgAAAAs=
+</value>
+  </data>
+  <data name="flatTextBoxServerFTPPass.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;flatTextBoxServerFTPPass.Name" xml:space="preserve">
+    <value>flatTextBoxServerFTPPass</value>
+  </data>
+  <data name="&gt;&gt;flatTextBoxServerFTPPass.Type" xml:space="preserve">
+    <value>stCoreUI.FlatTextBox, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatTextBoxServerFTPPass.Parent" xml:space="preserve">
+    <value>flatGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;flatTextBoxServerFTPPass.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="flatTextBoxServerFTPLogin.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="flatTextBoxServerFTPLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 73</value>
+  </data>
+  <data name="flatTextBoxServerFTPLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 29</value>
+  </data>
+  <data name="flatTextBoxServerFTPLogin.SpellMark" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAD9zdENvcmUsIFZlcnNpb249MS4wLjEuNDA3LCBDdWx0dXJlPW5l
+        dXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwEAQAAAHhTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5M
+        aXN0YDFbW3N0Q29yZS5UeHRQb3NpdGlvbiwgc3RDb3JlLCBWZXJzaW9uPTEuMC4xLjQwNywgQ3VsdHVy
+        ZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsXV0DAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgQA
+        ABRzdENvcmUuVHh0UG9zaXRpb25bXQIAAAAICAkDAAAAAAAAAAAAAAAHAwAAAAABAAAAAAAAAAQSc3RD
+        b3JlLlR4dFBvc2l0aW9uAgAAAAs=
+</value>
+  </data>
+  <data name="flatTextBoxServerFTPLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;flatTextBoxServerFTPLogin.Name" xml:space="preserve">
+    <value>flatTextBoxServerFTPLogin</value>
+  </data>
+  <data name="&gt;&gt;flatTextBoxServerFTPLogin.Type" xml:space="preserve">
+    <value>stCoreUI.FlatTextBox, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatTextBoxServerFTPLogin.Parent" xml:space="preserve">
+    <value>flatGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;flatTextBoxServerFTPLogin.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="flatTextBoxServer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 38</value>
+  </data>
+  <data name="flatTextBoxServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 29</value>
+  </data>
+  <data name="flatTextBoxServer.SpellMark" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAD9zdENvcmUsIFZlcnNpb249MS4wLjEuNDA3LCBDdWx0dXJlPW5l
+        dXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwEAQAAAHhTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5M
+        aXN0YDFbW3N0Q29yZS5UeHRQb3NpdGlvbiwgc3RDb3JlLCBWZXJzaW9uPTEuMC4xLjQwNywgQ3VsdHVy
+        ZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsXV0DAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgQA
+        ABRzdENvcmUuVHh0UG9zaXRpb25bXQIAAAAICAkDAAAAAAAAAAAAAAAHAwAAAAABAAAAAAAAAAQSc3RD
+        b3JlLlR4dFBvc2l0aW9uAgAAAAs=
+</value>
+  </data>
+  <data name="flatTextBoxServer.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;flatTextBoxServer.Name" xml:space="preserve">
+    <value>flatTextBoxServer</value>
+  </data>
+  <data name="&gt;&gt;flatTextBoxServer.Type" xml:space="preserve">
+    <value>stCoreUI.FlatTextBox, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatTextBoxServer.Parent" xml:space="preserve">
+    <value>flatGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;flatTextBoxServer.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="flatGroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="flatGroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="flatGroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 194</value>
+  </data>
+  <data name="flatGroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="flatGroupBox1.Text" xml:space="preserve">
+    <value>Сервер</value>
+  </data>
+  <data name="&gt;&gt;flatGroupBox1.Name" xml:space="preserve">
+    <value>flatGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;flatGroupBox1.Type" xml:space="preserve">
+    <value>stCoreUI.FlatGroupBox, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatGroupBox1.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;flatGroupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 44</value>
+  </data>
+  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>880, 203</value>
+  </data>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>flatTabControlMain</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="flatContextMenuLog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>714, 17</value>
+  </metadata>
+  <data name="flatContextMenuLog.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8pt</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>Сохранить в файл</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="toolStripMenuItem2.Text" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="flatContextMenuLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 48</value>
+  </data>
+  <data name="&gt;&gt;flatContextMenuLog.Name" xml:space="preserve">
+    <value>flatContextMenuLog</value>
+  </data>
+  <data name="&gt;&gt;flatContextMenuLog.Type" xml:space="preserve">
+    <value>stCoreUI.FlatContextMenuStrip, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ListBoxLog.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="ListBoxLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="ListBoxLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>866, 187</value>
+  </data>
+  <data name="ListBoxLog.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ListBoxLog.Name" xml:space="preserve">
+    <value>ListBoxLog</value>
+  </data>
+  <data name="&gt;&gt;ListBoxLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListBoxLog.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;ListBoxLog.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPage3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 44</value>
+  </data>
+  <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>880, 203</value>
+  </data>
+  <data name="tabPage3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Лог</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Name" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Parent" xml:space="preserve">
+    <value>flatTabControlMain</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelVerion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelVerion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="labelVerion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelVerion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 11</value>
+  </data>
+  <data name="labelVerion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 15</value>
+  </data>
+  <data name="labelVerion.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="labelVerion.Text" xml:space="preserve">
+    <value>v:0.0.0.0</value>
+  </data>
+  <data name="&gt;&gt;labelVerion.Name" xml:space="preserve">
+    <value>labelVerion</value>
+  </data>
+  <data name="&gt;&gt;labelVerion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelVerion.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;labelVerion.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 7</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 19</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>stRevizor</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 181</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 15</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>stRevizor start manual:</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 166</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 15</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Latest archive:</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 144</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>495, 15</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>No dependency other library for base functional (optionals libexpat, iconv for parse module).</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 129</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 15</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Small dynamic allocate memory, only hash tablle in use.</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 114</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 15</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Blocking by IP address from iptables/ipset/user defined (ipset is optionals).</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 99</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>500, 15</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>HTTP/HTTPS transparent filter to remote proxy server support method CONNECT (optionals).</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 84</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 15</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>DNS transparent filter, server part (optionals).</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 69</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>657, 15</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Watch FTP/TFTP directory for the presence of RosKomNadzor registry update files and makes changes to the iptables/ipset.</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 50</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 15</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Registry RosKomNadzor blacklist watch daemon features:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 26</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>654, 19</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Registry RosKomNadzor blacklist converter to iptables/ipset, GUI Manager, stRevizor daemon server part..</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="linkLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="linkLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="linkLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="linkLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 166</value>
+  </data>
+  <data name="linkLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 15</value>
+  </data>
+  <data name="linkLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="linkLabel2.Text" xml:space="preserve">
+    <value>https://github.com/PetersSharp/stRevizor/releases/latest</value>
+  </data>
+  <data name="&gt;&gt;linkLabel2.Name" xml:space="preserve">
+    <value>linkLabel2</value>
+  </data>
+  <data name="&gt;&gt;linkLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkLabel2.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;linkLabel2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 11</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 50</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="linkLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="linkLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="linkLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 181</value>
+  </data>
+  <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>556, 15</value>
+  </data>
+  <data name="linkLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="linkLabel1.Text" xml:space="preserve">
+    <value>https://github.com/PetersSharp/stRevizor/blob/master/stRevizor-Server/stRevizorDaemon/README.md</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Name" xml:space="preserve">
+    <value>linkLabel1</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="tabPage4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 44</value>
+  </data>
+  <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>880, 203</value>
+  </data>
+  <data name="tabPage4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Name" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Parent" xml:space="preserve">
+    <value>flatTabControlMain</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="flatTabControlMain.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="flatTabControlMain.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>120, 40</value>
+  </data>
+  <data name="flatTabControlMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 95</value>
+  </data>
+  <data name="flatTabControlMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>888, 251</value>
+  </data>
+  <data name="flatTabControlMain.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;flatTabControlMain.Name" xml:space="preserve">
+    <value>flatTabControlMain</value>
+  </data>
+  <data name="&gt;&gt;flatTabControlMain.Type" xml:space="preserve">
+    <value>stCoreUI.FlatTabControl, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatTabControlMain.Parent" xml:space="preserve">
+    <value>formSkinMain</value>
+  </data>
+  <data name="&gt;&gt;flatTabControlMain.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="flatStatusBarInfo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="flatStatusBarInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8pt</value>
+  </data>
+  <data name="flatStatusBarInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 353</value>
+  </data>
+  <data name="flatStatusBarInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>894, 23</value>
+  </data>
+  <data name="flatStatusBarInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="flatStatusBarInfo.Text" xml:space="preserve">
+    <value>статус</value>
+  </data>
+  <data name="&gt;&gt;flatStatusBarInfo.Name" xml:space="preserve">
+    <value>flatStatusBarInfo</value>
+  </data>
+  <data name="&gt;&gt;flatStatusBarInfo.Type" xml:space="preserve">
+    <value>stCoreUI.FlatStatusBar, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatStatusBarInfo.Parent" xml:space="preserve">
+    <value>formSkinMain</value>
+  </data>
+  <data name="&gt;&gt;flatStatusBarInfo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="flatClose1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="flatClose1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Marlett, 10pt</value>
+  </data>
+  <data name="flatClose1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>858, 12</value>
+  </data>
+  <data name="flatClose1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="flatClose1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="flatClose1.Text" xml:space="preserve">
+    <value>flatClose1</value>
+  </data>
+  <data name="&gt;&gt;flatClose1.Name" xml:space="preserve">
+    <value>flatClose1</value>
+  </data>
+  <data name="&gt;&gt;flatClose1.Type" xml:space="preserve">
+    <value>stCoreUI.FlatClose, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatClose1.Parent" xml:space="preserve">
+    <value>formSkinMain</value>
+  </data>
+  <data name="&gt;&gt;flatClose1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="flatMinimize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="flatMinimize.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Marlett, 12pt</value>
+  </data>
+  <data name="flatMinimize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>834, 12</value>
+  </data>
+  <data name="flatMinimize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="flatMinimize.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flatMinimize.Name" xml:space="preserve">
+    <value>flatMinimize</value>
+  </data>
+  <data name="&gt;&gt;flatMinimize.Type" xml:space="preserve">
+    <value>stCoreUI.FlatMini, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatMinimize.Parent" xml:space="preserve">
+    <value>formSkinMain</value>
+  </data>
+  <data name="&gt;&gt;flatMinimize.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="formSkinMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="formSkinMain.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="formSkinMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="formSkinMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>894, 376</value>
+  </data>
+  <data name="formSkinMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="formSkinMain.Text" xml:space="preserve">
+    <value>stRevizor Manager</value>
+  </data>
+  <data name="&gt;&gt;formSkinMain.Name" xml:space="preserve">
+    <value>formSkinMain</value>
+  </data>
+  <data name="&gt;&gt;formSkinMain.Type" xml:space="preserve">
+    <value>stCoreUI.FormSkin, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;formSkinMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;formSkinMain.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAACQAABILAAASCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAP8BAFj/AgBY3QQAcf8EAFj/BgBY/wYAWP8GAEv/BABY3QQAWP8CAAD/AQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAIWFAQBY3QQAWNQJCU/hEQZa7xkKYP4gCVz/JQxc/ycJXP8lClb+IAZU
+        9RkJS+MRAEblCQBLvQQAhYUBAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wEAWLAEAFjdCwZa4hkHYOssCmDvQAlh9VQKYP1kCmH/bgtg
+        /3EMX/9uClz+ZAlX91UKVfJCB1TzLQZS6hoAVN8MAEu9BAAA/wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIWFAQBg2QcAZuQWB2TxLwZr+k0JbP9pC2v9gQpo
+        +5EKZfuaDGP7oQth+qQMYfuhC1/7mgpe/JEMXf2BCl7+aghZ+E8HVfEwB1TtGABY8wcAhf8BAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWLACAF3aCwVp6yEFcfdDCHL9Zglu
+        /IkJYOetB1Tb0ghV3+0LU9/5C1Le/gxT3f8LUd7+C1Lf+QhQ4e4JTt3VCVTlsAld+4sIXv9nB1r6RQVW
+        +iIAWOwLAFiwAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABYsAIAb+0MBHH0JwR2
+        /E8Ic/t8CGDgsgdX4OQLWOT7Dl3o/xBi8P8SZPf/EWb6/xBl/P8RZfr/EWH3/xFd8f8NWev/ClXj+whS
+        4eYHVOK2CF38fwZb/1EEWfwoAEvjDQBYsAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIX/AQB1
+        7AsAePQoBHv9VAhy+IoHWdzTCVvn+A1k8P8Rbff/IXn+/zCE//9Bjv//TpP//1WX//9Okf//QYj//y96
+        //8fbf3/EGH2/w5a7v8KVOX5CFLi2Ahd+I0EXv9WAFz8KQBU7QwAhf8BAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAA//8BAHrgCAB69iMCf/xRBm7slgde4+IJZe//DW/1/x9///80jP//MYn//yB9//8RdP//B2z//wBl
+        //8Hav//EW7//yB1//8xff//NH7//x5u/v8NX/X/DFnu/wdV6OYIWeybAmD+UwBf/yQAXvYJAAD/AQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAEAY8YFAH3qGgCD+EcIcuuSB2Ln5ght9P8Te/r/JYr//yaI//8Qe///AHH//wBv
+        //8AaP//AGr//wBp//8AYv//AGT//wBl//8AY///EGz//yZ5//8ldv//Emb7/wpd8/8HWevpB1jrmQJh
+        /0oAXvccAFjsBgAA/wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABYsAIAfugPAIb0NwR5734HZObiCXL2/xJ//v8fjP//FIX//wB4
+        //8Adv//AHP//wBk//8lmP//G4L//wBr//9ttP//BWT//wBl//8Aaf//AGX//wBj//8UcP//H3T//xBo
+        /P8JXfL/B1nq5gVg8IQAZP05AGH1EQBCxgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AQB48QcAi/YjAoX5YwZk3tIHcfP/DoP9/xaM
+        //8Lhv//AH3//wB8//8Adf//AGr//xKy///n////JZH//wBi///s/P//ibz//wBf//8AbP//AGr//wBo
+        //8AZv//C2z//xZw//8NZvv/CF7w/wZa59kCZvhoAGX7JQBY8wcAAP8BAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIXGAgCO9hEAj/tBBWzbrghs
+        7PkIf/j/EI///wiJ//8AhP//AIP//wB4//8Aev//Atv//97////q////AHf//wx6///+/////////yyK
+        //8AZf//AG///wBs//8Aa///AGn//whs//8Qb///B2P2/wlc6vsGWuG5AGj8RQBm+BMAhf8CAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8BAIXvBgCS
+        9iMEhPJvB2/t6gV69v8LkP//B47//wCJ//8Aif//AH7//wCH//8A9P//lP////////80+v//AGH//0ut
+        /////////////8vq//8AY///AHH//wBw//8Ab///AG3//wBs//8Hbv//C23//wZg8P8IX+ztBGbwdwBu
+        /yQAYPEHAAD/AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAWLACAIrmDgKT9z0GcN+7Bnfx/wWM/f8Fkv//AI///wCO//8Aif//AIP//wDv//8h/////////2X/
+        //8AzP//AFr//5Xl//////////////////85qf//AGP//wB0//8Acv//AHH//wBv//8Abv//BW///wVq
+        /P8GYO7/B1/oxgJs/kAAbv0PAFj/AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAhd0EAJTvGQSM9GIGde3sBIT4/wKW//8AlP//AJL//wCR//8Ahf//AL7//wD/
+        //9p////Zv///wD///8Ae///BYr///r///////////////////+Z////AHf//wB1//8Aef//AHX//wBz
+        //8Acf//AHD//wNv//8EZfP/B2Do8ARq9GcAcfwaAIX/BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wEAkPEHAJ/2KAV23qMGeu7/AZT+/wCa//8AmP//AJb//wCV
+        //8Ah///APX//wD///8F////Af///wDD//8AY///Jur////////////////////////1////A7r//wBp
+        //8Ae///AHj//wB3//8Adf//AHT//wBy//8Cbvv/CF/q/wVh5LADcvwqAG7zBwAA/wEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACF/wEAn+EMApTtQAV35tgEh/X/AZz//wCf
+        //8Anf//AJr//wCX//8Akv//AP///wD///8A////AOj//wBv//8Ao///jP//////////////////////
+        ////////Dv///wB1//8Aff//AH7//wB7//8Aev//AHj//wB2//8Bc///Bmjw/wdj6uECbvVEAHHwDQBY
+        sAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACFxgIIouYTCInlXQZ8
+        7fQDlPv/AKT//wCi//8Aof//AJ///wCY//8An///AP///wD///8A8///AIb//wB3//8B/f//+///////
+        ////////////////////////G////wCT//8AeP//AIP//wB///8Aff//AHz//wB6//8Aef//BG73/wdi
+        5/gEbe1kAHz/FACF/wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACw
+        3QQLrPkbCn7djgaA7v8Bof//AKj//wCm//8ApP//AKP//wCg//8An///AP///wDs//8AjP//AIL//wC3
+        //8N////////////////////////////////////Cv///wDD//8Adf//AIX//wCD//8Agv//AH///wB+
+        //8AfP//AXb9/wdk6P8GY+OaAHr/HQCF/wQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAC9/wQUsf0jC4LiuQWN9P8BqP//AKz//wCq//8AqP//AKf//wCk//8An///APH//wCS
+        //8Alf//AIX//wD3//8h///////////////////////////////s////AP///wDz//8Adf//AIr//wCH
+        //8Ahv//AIT//wCD//8AgP//AX3//wZq7f8GZOrIBHT4KgCX/wQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAACHG/wUXq/stEIjt2QWX+P8Ar///ALD//wCu//8ArP//AKv//wCp
+        //8Apf//AL///wCe//8Al///AK7//wD///9V//////////////////////////////91////AP///wD/
+        //8Ae///AI3//wCL//8Aiv//AIj//wCH//8Ahf//AYL//wVx8/8HZu3hA3b5MAB1/wYAAP8BAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AR3N/wYXrfozE4vw6wWj+/8AtP//ALP//wCy
+        //8AsP//AK///wCt//8Aqv//AKf//wCp//8Akv//AOP//wD///+P////////////////////////////
+        //8H////AP///wD///8Af///AJL//wCP//8Ajf//AIz//wCK//8Aif//AIb//wN39v8HZurwA3v4NQCT
+        /wYAAP8BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/ATvN/wYcqfg2FI7w9Qas
+        //8Auv//ALj//wC3//8AtP//ALL//wCx//8Ar///AK3//wCq//8Alv//AP///wD///+S////////////
+        /////////////8j///8A////AP///wD///8Ahf//AJX//wCT//8Akf//AJD//wCO//8Ajf//AIv//wJ+
+        +f8IZej4B3n1OgCT/wYAAP8BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/ATvs
+        /wYeqfc4F47u+wi3//8Avf//ALz//wC6//8Auf//ALf//wC2//8As///ALL//wCq//8As///AP///wD/
+        //9h/////////////////////////xX///8A////AP///wD7//8Ahv//AJn//wCX//8Alf//AJT//wCS
+        //8Akf//AI///wGG/P8IY+X8BnnzPQCT/wYAAP8BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAD/ATvN/wYerPY3F5Du/hS///8Awf//AMD//wC+//8Avf//ALv//wC5//8AuP//ALb//wCr
+        //8AyP//AP///wD///8f/////////////////////////wH///8A////AP///wDT//8Ajf//AJ3//wCc
+        //8Amf//AJf//wCW//8AlP//AJP//wGL/v8IZOT+Bn3zPACT/wYAAP8BAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAACHn/wUdrvYzF5Tv/iTG//8Axf//AMT//wDC//8Awf//AL///wC9
+        //8AvP//ALr//wCs//8A1f//AP///wD///8H////////////////////Rf///wD///8A////AP///wCp
+        //8Amf//AKP//wCg//8Anv//AJz//wCa//8AmP//AJb//wGO/v8IZuX+Bn3yOQCT/wYAAP8BAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACXj/wQdqPYvF5jw+inJ//8Fy///AMj//wDG
+        //8AxP//AMP//wDB//8AwP//AMD//wCw//8A3f//AP///wD///8A////4v//////////////Av///wD/
+        //8A////AP///wCW//8Ap///AKX//wCj//8Aov//AKD//wCf//8Anf//AJz//wGQ/f8IbOf8B3vvNgC9
+        /wQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACzd/wQapfEoGKHz8SzI
+        //8X0///AMv//wDK//8AyP//AMf//wDF//8Aw///AML//wC2//8A2v//AP///wD///8A////Lf//////
+        //+k////AP///wD///8A////ANH//wCd//8ArP//AKn//wCn//8Apv//AKT//wCj//8Aof//AJ///wKQ
+        +v8Hcez2CH3yLQCw/wQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADG
+        /wIXoOwfHqfz4jHG/v8q2f//AtH//wDO//8AzP//AMr//wDJ//8Ax///AMb//wC8//8A1P//AP///wD/
+        //8A////Af////////9F////AP///wD///8A////ALP//wCp//8Asv//AK3//wCr//8Aqv//AKj//wCm
+        //8Apf//AKL//wOO+P8HeO7nBH/uIwDG/wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAACwsAITmOUWIKr0yTjE/P803P//GNn//wDS//8A0f//AM7//wDN//8Ay///AMv//wDD
+        //8Axf//AP///wD///8A////AP///1H///8Y////AP///wD///8A+f//AKT//wC2//8Asv//ALH//wCv
+        //8Arf//AKz//wCq//8AqP//AaX//wSM9/8GfO/QBnzqGgCw/wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wEimOcMIKbtnT6/+f853///LOD//wfY//8A0///ANP//wDS
+        //8A0P//AM7//wDM//8Avv//APr//wD///8A////AP///wD///8A////AP///wD///8A4P//AKr//wC5
+        //8At///ALT//wCz//8Asf//ALD//wCu//8Arf//Aaj//wWJ8/8GfvGqCXzuDwD//wEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjxf4FFJfdZD689/9O4///L+T//yTh
+        //8B2P//ANf//wDW//8A1P//ANL//wDR//8Axv//AOD//wD///8A////AP///wD///8A////AP///wD/
+        //8A1v//ALf//wC8//8Au///ALn//wC4//8Atv//ALT//wCy//8AsP//Aaj//waH8P8HfedyAJDeBwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8CEZDZJjq8
+        9u1i3f//P+r//zDm//8a4f//ANv//wDZ//8A2P//ANb//wDV//8A0///AMn//wD///8A////AP///wD/
+        //8A////AP///wD///8Ayf//AL3//wDC//8Av///AL3//wC8//8Auv//ALj//wC3//8AtP//A6H7/waH
+        7+0HeOEtALD/AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAA//8BHJLjDzG7979o0/3/Xu///yzq//8y6P//E+L//wDd//8A3P//ANr//wDZ//8A1///AND//wDe
+        //8A////AP///wD///8A////AP///wD///8Axf//AMT//wDE//8Aw///AMH//wC///8Avv//ALz//wC6
+        //8At///BJr3/wiN8sEHfesSAP//AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAMK/wBBGf4WhXy/n/he///07x//8t6///L+v//xHk//8A3///AN7//wDc
+        //8A2///ANn//wDR//8A+f//AP///wD///8A////AP///wD///8Ax///AMn//wDI//8Axv//AMX//wDD
+        //8Awv//AMD//wC///8BtP//B5f1/weK7noPb+0HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AReH3hZGx/jYieL//3/4//858P//Lu3//y/s
+        //8T5v//AOH//wDg//8A3///AN3//wDX//8A2f//AP///wD///8A////AP///wD///8Azf//AM3//wDM
+        //8Ayv//AMn//wDH//8Axv//AMT//wDA//8Fqvv/DZjy1gt44RwA//8BAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACV75wYbtPKAbNX7/6f2
+        //9y+f//LPD//y3v//8v7v//G+r//wHk//8A4v//AOH//wDf//8A2f//AOP//wD///8A////AP///wD/
+        //8A0f//ANL//wDR//8Azv//AM3//wDL//8Ayf//AMj//wG+//8Rpvj/DJjyjA6A5QcAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/
+        /wEXgtwXSc75z5Xk//+5/f//a/n//yzy//8s8f//MPD//ybt//8H5///AOP//wDj//8A4f//ANv//wDv
+        //8A////AP///wD///8A2P//ANX//wDU//8A0///ANL//wDQ//8Azf//AMn//xa0+/8cpfXPDnPZIAD/
+        /wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAATYLwDE6rnYmXV+vS78v//wf///2z6//8s9P//LPP//zDz//8t8P//F+z//wLn
+        //8A5f//AOP//wDd//8A9P//AP///wD///8A4v//ANn//wDZ//8A1///ANb//wDU//8A0v//Isf//yWu
+        9/EOmfFuE2rjBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACG3QCyfK+JV/4f7/0vz//83///95/f//LPb//yz1
+        //8t9f//L/L//ynw//8S7P//A+j//wDm//8A3///APf//wD///8A7v//ANz//wDc//8A2///ANn//wDY
+        //802P//NcD6/xux9psJat4OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFtzBVC1vqxjOb//9/+
+        ///m////l////076//8s9v//LPX//y70//8v8///KvH//xfv//8I6v//AOL//wD5//8A9P//AN///wDg
+        //8A3///HOH//1Ti//9Jy/3/Jrf3sxBu1xkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAPiNMnSNf6tovn///o/v//8P///8v///+G////R/r//yz3//8s9v//LfT//zDz//8u8v//Iu///xfs
+        //8K7f//A+b//xrn//9U7v//huz//1LR/v8svPi4EYTcLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAXtcBEYbRJT3V+qR84v7/v/L///P////4////2v///6X///94/v//Vfr//zv3
+        //8u9f//PfX//1f2//90+P//kvv//7b6//+Y5///WNH9/zG/+KghkegqAF7XAQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5k2w0xy/iCYNb65Y3k///Q9v//+P////z/
+        ///7////+v////f////1////8f///+7////j////ufD//3va/v9Yx/nlQcH3hw5j2g8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKaN0IH7DtRUfR
+        +aFe0/nqet/9/5zn///D8///4/v///H9///f+v//vfD//5Pk//9y2P3/WMr56kvI+KM3s/RJCmrdCAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAEXXAQpm3AkhpuY2Q834flXR+bRWzvjaVc348lnN+P5WzPjyV8342lXO+bROy/h+MazuOAph
+        0AoARtcBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE1PXBAtIyAcIVtcJD2DbDA5f2w0PYtsLCFbXCQtJ
+        yAcTU9cEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//8AH//8AAP//AAD//wAA//wAAH//
+        AAD/+AAAP/8AAP/wAAAf/wAA/+AAAA//AAD/wAAAB/8AAP+AAAAD/wAA/wAAAAH/AAD/AAAAAf8AAP4A
+        AAAA/wAA/gAAAAD/AAD8AAAAAH8AAPwAAAAAfwAA/AAAAAB/AAD4AAAAAD8AAPgAAAAAPwAA+AAAAAA/
+        AAD4AAAAAD8AAPgAAAAAPwAA+AAAAAAfAADwAAAAAB8AAPAAAAAAHwAA8AAAAAAfAADwAAAAAB8AAPgA
+        AAAAHwAA+AAAAAA/AAD4AAAAAD8AAPgAAAAAPwAA+AAAAAA/AAD4AAAAAD8AAPwAAAAAfwAA/AAAAAB/
+        AAD8AAAAAH8AAP4AAAAA/wAA/gAAAAD/AAD/AAAAAf8AAP8AAAAB/wAA/4AAAAP/AAD/wAAAB/8AAP/g
+        AAAP/wAA//AAAB//AAD/8AAAH/8AAP/8AAB//wAA//4AAP//AAD//wAB//8AAP//4A///wAA////////
+        AAA=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FormMain</value>
+  </data>
+  <data name="&gt;&gt;timerDrop.Name" xml:space="preserve">
+    <value>timerDrop</value>
+  </data>
+  <data name="&gt;&gt;timerDrop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fileSystemWatch.Name" xml:space="preserve">
+    <value>fileSystemWatch</value>
+  </data>
+  <data name="&gt;&gt;fileSystemWatch.Type" xml:space="preserve">
+    <value>System.IO.FileSystemWatcher, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EPMain.Name" xml:space="preserve">
+    <value>EPMain</value>
+  </data>
+  <data name="&gt;&gt;EPMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotifyMain.Name" xml:space="preserve">
+    <value>NotifyMain</value>
+  </data>
+  <data name="&gt;&gt;NotifyMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SFDMain.Name" xml:space="preserve">
+    <value>SFDMain</value>
+  </data>
+  <data name="&gt;&gt;SFDMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timerSrvInfo.Name" xml:space="preserve">
+    <value>timerSrvInfo</value>
+  </data>
+  <data name="&gt;&gt;timerSrvInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OFDMain.Name" xml:space="preserve">
+    <value>OFDMain</value>
+  </data>
+  <data name="&gt;&gt;OFDMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Name" xml:space="preserve">
+    <value>toolStripMenuItem3</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ServerInfoBindingSource.Name" xml:space="preserve">
+    <value>ServerInfoBindingSource</value>
+  </data>
+  <data name="&gt;&gt;ServerInfoBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
+    <value>toolStripMenuItem2</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timerSendServer.Name" xml:space="preserve">
+    <value>timerSendServer</value>
+  </data>
+  <data name="&gt;&gt;timerSendServer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="EPMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>523, 17</value>
+  </metadata>
+  <metadata name="NotifyMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>610, 17</value>
+  </metadata>
+  <metadata name="SFDMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 54</value>
+  </metadata>
+  <data name="SFDMain.Filter" xml:space="preserve">
+    <value>Log файлы|*.log</value>
+  </data>
+  <metadata name="timerSrvInfo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>112, 54</value>
+  </metadata>
+  <metadata name="OFDMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="flatContextMenuSendServer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>359, 54</value>
+  </metadata>
+  <data name="flatContextMenuSendServer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8pt</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 22</value>
+  </data>
+  <data name="toolStripMenuItem3.Text" xml:space="preserve">
+    <value>остановить попытки отправки данных..</value>
+  </data>
+  <data name="flatContextMenuSendServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 26</value>
+  </data>
+  <data name="&gt;&gt;flatContextMenuSendServer.Name" xml:space="preserve">
+    <value>flatContextMenuSendServer</value>
+  </data>
+  <data name="&gt;&gt;flatContextMenuSendServer.Type" xml:space="preserve">
+    <value>stCoreUI.FlatContextMenuStrip, stCoreUI, Version=1.0.1.407, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <metadata name="timerSendServer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>225, 54</value>
+  </metadata>
+</root>

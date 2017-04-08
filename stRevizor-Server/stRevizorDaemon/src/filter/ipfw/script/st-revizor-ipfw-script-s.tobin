@@ -1,0 +1,145 @@
+#!/bin/bash
+# stRevizor firewall wrapper
+
+#              Copyright (C) 2015-2017, @PS
+#
+#    Everyone is permitted to copy and distribute verbatim copies
+#    of this license document, but changing it is not allowed.
+#
+#    See file LICENSE.md in directory distribution.
+#
+#    You can find latest source:
+#     - https://github.com/PetersSharp/stRevizor
+#     - https://github.com/PetersSharp/stRevizor/releases/latest
+#     - https://github.com/PetersSharp/stRevizor/pulse
+#
+#    * $Id$
+#    * commit date: $Format:%cd by %aN$
+#
+#--------------------------------------------------------------------------------------
+
+# Input options:
+#   $1 - content id (label)
+#   $2,$3,.. - other options, same as content id
+
+# Environment example:
+# See actual environment setting: ./revizor-watch -e
+#   REVIZOR_IPT_BIN=/sbin/iptables
+#   REVIZOR_IPS_BIN=/usr/sbin/ipset
+#   REVIZOR_DNS_CLPORT=5300
+#   REVIZOR_URL_CLPORT=5800
+#   REVIZOR_DNS_FILTRED=192.168.0.0
+#   REVIZOR_URL_FILTRED=192.168.0.0
+#   REVIZOR_IPFW_IFACE=eth0
+#   REVIZOR_IPFW_NET=192.168.0.0/24
+#   REVIZOR_IPFW_GW=192.168.0.1
+#   REVIZOR_IPFW_FINAL=DROP
+#   REVIZOR_DNS_CLEAR=1
+#   REVIZOR_URL_CLEAR=1
+#   REVIZOR_LOG_ENABLE=1
+#   REVIZOR_DIR_DRIVER=/usr/lib/strevizor
+#   REVIZOR_DIR_BACKUP=/var/spool/strevizor
+#   REVIZOR_LOG_NAME=/usr/var/log/strevizor-last.log
+#   REVIZOR_DNS_TCP=1
+#   REVIZOR_IPFW_DNS_LOCALR=1
+#   REVIZOR_IPFW_URL_LOCALR=1
+
+# For test only, not compatible
+# set -eu
+
+IPFW_CHAINMAIN="REVIZOR"
+IPFW_CHAINBLK="REVIZORBLACK"
+IPFW_CHAINWHT="REVIZORWHITE"
+IPFW_CHAINBGP="REVIZORBGP"
+# manual edit, send error delete rules to syslog, 1 - enable, 0 disable
+IPFW_DEBUG_DEL=0
+
+function __tolog() {
+    if [[ ! -z ${REVIZOR_LOG_ENABLE} || ${REVIZOR_LOG_ENABLE} -eq "1" ]] ; then
+        logger -t `basename "$0"` "$@"
+    fi
+}
+function __addipt() {
+    if [[ -z ${REVIZOR_IPT_BIN} || ${REVIZOR_IPT_BIN} == "" || ! -f ${REVIZOR_IPT_BIN} ]] ; then
+        return
+    fi
+    IPFW_OUT="$(${REVIZOR_IPT_BIN} "$@" 2>&1 > /dev/null)"
+    IPFW_RET=$?
+    if [[ ${IPFW_OUT} != "" ]] ;
+    then
+        __tolog "\"[__addipt]: ${@} [error]: ${IPFW_OUT}\""
+    fi
+    return ${IPFW_RET}
+}
+function __addips() {
+    if [[ -z ${REVIZOR_IPS_BIN} || ${REVIZOR_IPS_BIN} == "" || ! -f ${REVIZOR_IPS_BIN} ]] ; then
+        return
+    fi
+    IPFW_OUT="$(${REVIZOR_IPS_BIN} "$@" 2>&1 > /dev/null)"
+    IPFW_RET=$?
+    if [[ ${IPFW_OUT} != "" ]] ;
+    then
+        __tolog "\"[__addips]: ${@} [error]: ${IPFW_OUT}\""
+    fi
+    return ${IPFW_RET}
+}
+function __listipt() {
+    if [[ -z ${REVIZOR_IPT_BIN} || ${REVIZOR_IPT_BIN} == "" || ! -f ${REVIZOR_IPT_BIN} ]] ; then
+        return
+    fi
+    ${REVIZOR_IPT_BIN} "$@" >>/dev/null 2>&1
+    return $?
+}
+function __listips() {
+    if [[ -z ${REVIZOR_IPS_BIN} || ${REVIZOR_IPS_BIN} == "" || ! -f ${REVIZOR_IPS_BIN} ]] ; then
+        return
+    fi
+    ${REVIZOR_IPS_BIN} "$@" >>/dev/null 2>&1
+    return $?
+}
+function __delipt() {
+    if [[ -z ${REVIZOR_IPT_BIN} || ${REVIZOR_IPT_BIN} == "" || ! -f ${REVIZOR_IPT_BIN} ]] ; then
+        return
+    fi
+    IPFW_OUT="$(${REVIZOR_IPT_BIN} "$@" 2>&1 > /dev/null)"
+    IPFW_RET=$?
+    while [ ${IPFW_RET} -eq 0 ]
+    do
+        ${REVIZOR_IPT_BIN} "$@" >>/dev/null 2>&1
+        IPFW_RET=$?
+    done
+    if [[ ${IPFW_OUT} != "" && ${IPFW_DEBUG_DEL} -eq 1 ]] ;
+    then
+        __tolog "\"[__delipt]: ${@} [error]: ${IPFW_OUT}\""
+    fi
+    return ${IPFW_RET}
+}
+function __delips() {
+    if [[ -z ${REVIZOR_IPS_BIN} || ${REVIZOR_IPS_BIN} == "" || ! -f ${REVIZOR_IPS_BIN} ]] ; then
+        return
+    fi
+    IPFW_OUT="$(${REVIZOR_IPS_BIN} "$@" 2>&1 > /dev/null)"
+    IPFW_RET=$?
+    while [ ${IPFW_RET} -eq 0 ]
+    do
+        ${REVIZOR_IPS_BIN} "$@" >>/dev/null 2>&1
+        IPFW_RET=$?
+    done
+    if [[ ${IPFW_OUT} != "" && ${IPFW_DEBUG_DEL} -eq 1 ]] ;
+    then
+        __tolog "\"[__delips]: ${@} [error]: ${IPFW_OUT}\""
+    fi
+    return ${IPFW_RET}
+}
+
+
+    if [[ -z ${REVIZOR_IPFW_NET} || -z ${REVIZOR_IPFW_GW} || -z ${REVIZOR_IPFW_IFACE} ]] ; then
+        __tolog "Environment not set, see ./revizor-watch -e for more info"
+        exit 127
+    fi
+
+    if [[ -z ${REVIZOR_IPFW_FINAL} ]] ; then
+        REVIZOR_IPFW_FINAL="DROP"
+    fi
+
+    case "${1}" in

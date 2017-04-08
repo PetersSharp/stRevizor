@@ -1,0 +1,137 @@
+#
+# Automatically generated file; DO NOT EDIT.
+# stREVIZOR select options Menu
+#
+
+#
+# REVIZOR system setting
+#
+
+#
+# Build options
+#
+
+#
+# stREVIZOR build options, see: https://github.com/PetersSharp/stRevizor
+#
+BUILD_ENABLE_SILENT=1
+BUILD_ENABLE_DEBUGSYM=; # is not set
+BUILD_ENABLE_USE_QSORT=1
+
+#
+# Directory and Locations
+#
+
+#
+# stREVIZOR directory & locations
+#
+BUILD_WATCH_PATH="/home/tftp/192.168.0.2"
+BUILD_WATCH_BACKUP="/var/spool/strevizor"
+BUILD_WATCH_DRIVER="strevizor"
+BUILD_WRAPPER_LOG_ENABLE=1
+BUILD_WATCH_JSON_AUTO_ENABLE=; # is not set
+BUILD_WATCH_XML_AUTO_ENABLE=1
+
+#
+# Netfilter setting
+#
+
+#
+# stREVIZOR Netfilter setting
+#
+BUILD_IPFW_IPT=; # is not set
+BUILD_IPFW_IPS=1
+BUILD_IPFW_IPT_BGP=; # is not set
+BUILD_IPFW_IPS_BGP=; # is not set
+BUILD_IPFW_USER=; # is not set
+BUILD_IPFW_IPT_BIN="/sbin/iptables"
+BUILD_IPFW_IPS_BIN="/usr/sbin/ipset"
+BUILD_IPFW_IFACE="eth0.249"
+BUILD_IPFW_NET="192.168.249.0/24"
+BUILD_IPFW_GW="192.168.249.1"
+BUILD_IPFW_BIND=; # is not set
+BUILD_IPFW_FINAL="DROP"
+BUILD_IPFW_CLEARR=1
+BUILD_IPFW_DEBUGL=; # is not set
+BUILD_IPFW_BLOCKALL=1
+
+#
+# XML parser module setting
+#
+
+#
+# stREVIZOR XML parser module setting
+#
+BUILD_ENABLE_XML_PARSER=1
+BUILD_XML_PARSER_32=; # is not set
+BUILD_XML_PARSER_24=; # is not set
+BUILD_XML_PARSER_16=1
+BUILD_XML_PARSER_8=; # is not set
+BUILD_XML_PARSER_RESOLVE_IP_ALL=; # is not set
+BUILD_XML_PARSER_RESOLVE_IP_HTTPS=1
+BUILD_XML_PARSER_BLOCK_IP_ALL=; # is not set
+BUILD_XML_PARSER_FIX_IP=""
+BUILD_XML_PARSER_FIX_DNS=".prov.netw,.netw.prov"
+BUILD_XML_PARSER_FIX_URL=""
+BUILD_XML_PARSER_SQUID_ENABLE=1
+BUILD_XML_PARSER_DEBUGI=1
+BUILD_XML_PARSER_DEBUGA=; # is not set
+
+#
+# DNS filter setting
+#
+
+#
+# stREVIZOR DNS filter setting
+#
+BUILD_ENABLE_DNS_FILTER=1
+BUILD_DNS_CLPORT=5300
+BUILD_DNS_UPSRV="8.8.8.8"
+BUILD_DNS_FILTRED_NET="192.168.249.0/24"
+BUILD_DNS_TARGET_NXDOMAIN=1
+BUILD_DNS_TARGET_LOCALHOST=; # is not set
+BUILD_DNS_TARGET_USERSET=; # is not set
+BUILD_DNS_LOCALR=; # is not set
+BUILD_DNS_TCP_REJECT=1
+BUILD_DNS_EMPTY_RUN=1
+BUILD_DNS_CLEARR=1
+BUILD_DNS_TCPDACL_ENABLE=; # is not set
+BUILD_DNS_DEBUGI=; # is not set
+BUILD_DNS_DEBUGP=; # is not set
+
+#
+# stREVIZOR HTTP/HTTPS URL filter setting
+#
+BUILD_ENABLE_HTTP_FILTER=1
+BUILD_HTTP_NUMTHREAD=12
+BUILD_HTTP_CLPORT=5800
+BUILD_HTTP_FILTRED_NET="192.168.249.0/24"
+BUILD_HTTP_LOCALR=; # is not set
+BUILD_HTTP_EMPTY_RUN=1
+BUILD_HTTP_CLEARR=1
+BUILD_HTTP_TCPDACL_ENABLE=; # is not set
+BUILD_HTTPS_SNI_RESOLV=1
+BUILD_HTTPS_BACK_RESOLV=1
+BUILD_HTTP_BACK_RESOLV=; # is not set
+BUILD_HTTP_ALLOW_CONNECT=; # is not set
+BUILD_HTTP_DEBUGI=; # is not set
+BUILD_HTTP_DEBUGC=; # is not set
+BUILD_HTTP_DEBUGP=; # is not set
+
+#
+# HTTP/HTTPS Squid proxy setting
+#
+
+#
+# stREVIZOR HTTP/HTTPS Squid proxy setting
+#
+BUILD_HTTP_PROXY_HOST="xxx.xxx.xxx.xxx"
+BUILD_HTTP_PROXY_PORT=3128
+BUILD_HTTPS_PROXY_PORT=3129
+BUILD_HTTP_PROXY_BIN="/usr/local/squid/sbin/squid"
+BUILD_HTTP_PROXY_DIR="/home/tftp/192.168.0.1"
+BUILD_NET_QUEUE=1024
+BUILD_NET_TIMEOUT=3500
+BUILD_WATCH_DAEMON=1
+BUILD_WATCH_SYSLOG=1
+BUILD_DEBUG_SYSLOG=; # is not set

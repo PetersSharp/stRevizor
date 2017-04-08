@@ -1,0 +1,47 @@
+#!/bin/bash
+
+    if [[ -z ${REVIZOR_IPFW_IFACE} || -z ${REVIZOR_IPFW_NET} ]] ;
+    then
+        exit 127
+    fi
+
+    __listipt -n -t filter -L ${IPFW_CHAINMAIN}
+    if [ $? -eq 0 ] ;
+    then
+        __delipt -t filter -D FORWARD -i ${REVIZOR_IPFW_IFACE} -s ${REVIZOR_IPFW_NET} -j ${IPFW_CHAINMAIN}
+        __addipt -t filter -F ${IPFW_CHAINMAIN}
+        __addipt -t filter -X ${IPFW_CHAINMAIN}
+    fi
+    __addipt -t filter -E "${IPFW_CHAINMAIN}TMP" ${IPFW_CHAINMAIN}
+
+    __listipt -n -t filter -L ${IPFW_CHAINBLK}
+    if [ $? -eq 0 ] ;
+    then
+        __addipt -t filter -F "${IPFW_CHAINBLK}"
+        __addipt -t filter -X "${IPFW_CHAINBLK}"
+    fi
+    __addipt -t filter -E "${IPFW_CHAINBLK}TMP" ${IPFW_CHAINBLK}
+
+    __listipt -n -t filter -L ${IPFW_CHAINWHT}
+    if [ $? -eq 0 ] ;
+    then
+        __addipt -t filter -F "${IPFW_CHAINWHT}"
+        __addipt -t filter -X "${IPFW_CHAINWHT}"
+    fi
+    __addipt -t filter -E "${IPFW_CHAINWHT}TMP" ${IPFW_CHAINWHT}
+
+    __listipt -n -t filter -L ${IPFW_CHAINBGP}
+    if [ $? -eq 0 ] ;
+    then
+        __addipt -t filter -F "${IPFW_CHAINBGP}"
+        __addipt -t filter -X "${IPFW_CHAINBGP}"
+    fi
+    __addipt -t filter -E "${IPFW_CHAINBGP}TMP" ${IPFW_CHAINBGP}
+
+    __addipt -t filter -A "${IPFW_CHAINMAIN}" -j "${IPFW_CHAINWHT}"
+    __addipt -t filter -A "${IPFW_CHAINMAIN}" -m conntrack --ctstate NEW -j "${IPFW_CHAINBLK}"
+    __addipt -t filter -A "${IPFW_CHAINMAIN}" -m conntrack --ctstate NEW -j "${IPFW_CHAINBGP}"
+    __addipt -t filter -A "${IPFW_CHAINMAIN}" -j RETURN
+
+    __addipt -t filter -I FORWARD -i ${REVIZOR_IPFW_IFACE} -s ${REVIZOR_IPFW_NET} -j ${IPFW_CHAINMAIN}
+

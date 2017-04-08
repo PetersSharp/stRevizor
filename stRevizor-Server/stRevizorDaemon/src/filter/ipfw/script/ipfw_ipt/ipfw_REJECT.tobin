@@ -1,0 +1,9 @@
+#!/bin/bash
+
+    if [[ -z ${2} ]] ;
+    then
+        echo "Label: ${1} lost argument param 2" | __tolog
+        exit 0
+    fi
+
+     __addipt -t filter -I "${IPFW_CHAINBLK}TMP" -d ${2} -j ${REVIZOR_IPFW_FINAL}

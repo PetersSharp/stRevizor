@@ -1,0 +1,53 @@
+#!/bin/bash
+
+    if [[ -z ${REVIZOR_IPFW_IFACE} || -z ${REVIZOR_IPFW_NET} ]] ;
+    then
+        exit 127
+    fi
+
+    __listips list ${IPFW_CHAINBLK}
+    if [ $? -eq 0 ] ;
+    then
+        __addips flush    ${IPFW_CHAINBLK}
+        __addips swap    "${IPFW_CHAINBLK}TMP" ${IPFW_CHAINBLK}
+        __delips destroy "${IPFW_CHAINBLK}TMP"
+    else
+        __addips rename  "${IPFW_CHAINBLK}TMP" ${IPFW_CHAINBLK}
+    fi
+
+    __listips list ${IPFW_CHAINWHT}
+    if [ $? -eq 0 ] ;
+    then
+        __addips flush    ${IPFW_CHAINWHT}
+        __addips swap    "${IPFW_CHAINWHT}TMP" ${IPFW_CHAINWHT}
+        __delips destroy "${IPFW_CHAINWHT}TMP"
+    else
+        __addips rename  "${IPFW_CHAINWHT}TMP" ${IPFW_CHAINWHT}
+    fi
+
+    __listips list ${IPFW_CHAINBGP}
+    if [ $? -eq 0 ] ;
+    then
+        __addips flush    ${IPFW_CHAINBGP}
+        __addips swap    "${IPFW_CHAINBGP}TMP" ${IPFW_CHAINBGP}
+        __delips destroy "${IPFW_CHAINBGP}TMP"
+    else
+        __addips rename  "${IPFW_CHAINBGP}TMP" ${IPFW_CHAINBGP}
+    fi
+
+    __listipt -n -t filter -L ${IPFW_CHAINMAIN}
+    if [ $? -eq 0 ] ;
+    then
+        __delipt -t filter -D FORWARD -i ${REVIZOR_IPFW_IFACE} -s ${REVIZOR_IPFW_NET} -j ${IPFW_CHAINMAIN}
+        __addipt -t filter -F ${IPFW_CHAINMAIN}
+        __addipt -t filter -X ${IPFW_CHAINMAIN}
+    fi
+
+    __addipt -t filter -E "${IPFW_CHAINMAIN}TMP" ${IPFW_CHAINMAIN}
+    __addipt -t filter -A ${IPFW_CHAINMAIN} -m set --match-set ${IPFW_CHAINWHT} dst -j ACCEPT
+    __addipt -t filter -A ${IPFW_CHAINMAIN} -m set --match-set ${IPFW_CHAINBGP} dst -j ${REVIZOR_IPFW_FINAL}
+    __addipt -t filter -A ${IPFW_CHAINMAIN} -m conntrack --ctstate NEW -m set --match-set ${IPFW_CHAINBLK} dst -j ${REVIZOR_IPFW_FINAL}
+    __addipt -t filter -A ${IPFW_CHAINMAIN} -j RETURN
+
+    __addipt -t filter -I FORWARD -i ${REVIZOR_IPFW_IFACE} -s ${REVIZOR_IPFW_NET} -j ${IPFW_CHAINMAIN}
+

@@ -1,0 +1,6 @@
+    *)
+        __tolog "Unsupported label: ${1}"
+    ;;
+    esac
+
+exit 0

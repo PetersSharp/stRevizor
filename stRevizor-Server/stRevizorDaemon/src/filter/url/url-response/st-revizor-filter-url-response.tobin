@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="description" lang="ru" content="Доступ запрещён 403" />
+	<meta name="keywords" lang="ru" content="Доступ запрещён 403" />
+	<meta name="robots" content="index, all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>403 Доступ запрещён</title>
+	<link href="data:image/png;base64,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" rel="icon" type="image/png" />
+	<meta charset="utf-8" />
+  <style>
+html {
+	height: 101%; padding: 0; margin: 0; background-color: #ddd;
+}
+body {
+	height:100%; padding:0; margin:0; font-family:"Tahoma";
+}
+.helper {
+	display: inline-block; height: 20px; box-shadow: 0px 0px 2px; background-color: #E6ECEF; text-align: center; font-size: 12px; vertical-align: middle; margin: 8px 6px 0 6px; width: 494px; max-width: 494px;
+}
+.base {
+	position: relative; margin: 0 auto; height: 100%; max-width: 512px;
+}
+.inception {
+	display: inline-block; vertical-align: middle; margin: 8px 6px 0 6px; max-width: 462px; box-shadow:  0px 0px 6px ; padding: 16px; background-color: #eee; font-size: 16px; text-align: center;
+}
+a, a:hover, a:link, a:visited {
+	color: #066bad; text-decoration: underline; font-weight: normal;
+}
+.l {
+	text-align: left; margin: 0 0 0 16px;
+} 
+li {
+	text-align: left; margin: 0 0 16px 0;
+}
+  </style>
+
+
+  </head>
+  <body>
+	<div class="base">
+	<div class="inception">
+	<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAwCAYAAABqkJjhAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABs9JREFUeNrMWVt22kgQlXz4H2UFUVYQeQXBKwisIOZ3MhNDYjt+Ix42fgN5zK/JCsArQFmBlRWEWUGYDURzb6tkNwIZQYiP+5w6krq7qqur69Ul0/gN7Z/PbQuPLiD/5+u14SJpLxm/pzmArDyNR83w508tOwgCB2AAbHxbi6RvLphZF4/yhKH867+KvQeV8KePzSwh1jdy5JDomkg2DmsPqhKfPl4W8egT8P5dmKU0b2JTBwkkhjF6PwCOvHdBK5A++5cY/vjhMgu4gZCakFIvlJZhoc/C+xAwwLujSbidIOH26EkYFkHecyEt1dcHvVXST8Xwh/aFC1jVSEMFAjAUVEC0hCf7yDgkGzQBkEhwo+H0ZI4O/t9v3npCH8xcBNLfxzdp+GQYHU/4DrjC96rGkwOwkiS8phsNdsyd8/kCn7a8f+HRy7uC6MixUFPvF7C5qJC0Y3i20LOxqUjKbL7GU1Ng3Eu0W+eBvFYAnuhtuJPiuonxK7xawuCqpp8F2SyNsoO5hVA652SINOxJNKXvebS8NtYDjTzWKwqzHr5XRiTcap7lNKMph8dm5GW3vkiwBPiqMWvIBrrC7FCYUO3N2vpA+y7HmGV7Cbgmc5phclNWu3VGdSvfp8NdMOPfGYr69iJDksYFmwmGRRhg8UHM1flioJPmM8A0KSziyrxrQD5cnyqi5l1jDr2SkdFIc4c5kaYjkqPbKhRLm8syZ5rbsVvN0yuRVjs8ieCPKThc5xW0k5LNc4OmaVxpYd2X0/FHJIyNtMUYHN1g6NKU5l+e0qA6gJ5mjHGwBL+CTQ5kXjEypgngC70vQfDTLpY2lI6Hrm6EB+J/vWX48uKEx/widC9jbsnBOHYcfBMXF/VD75Sr8+PzmUOIOlgT6BFaAI8nhjlZgDJmWceJzbVkjdatl8DEnBjOPY1Ixsrbd1tDzC++ffe+FY2EC+mGSGboOczvMSKlCA84VIVi6LupFjQwMztFfQqK4Yvz46y4j2npoGL63frWSKi9vDjmkX0XfTQ0a9cZ6ACvECeItS0x5mlre8BfWbo4b+QYdSYcxSTgnD5wRkInpR4a7cjcbOz7epzZhj3D2j7mF5WEz88asSOd2vz1je1l4FkimZdyvPdKiF4AeENZk7jxU5nWvKWz0yP6um8pdhiT9K1RMR8opsChxH+cnx1JmFU41gxrMk/Jm2A4OyECTWsdJkTipzvh6ZgpJKWMkf4ZuYkJISl/m7KpONFb2tjc8cLIkhi9xgA4NJ7IFxe1iDQFjGwUwUCjc5eypsKlQL5K4FDHmlolTk/q7sbm7jCU8kyqFLnHkqw7Ex43qIzu5LjuiB+2jYdpvna7nqWtSC6hjOihmJ2HUbbl91v7fua4Uc1G+cLjbsErnkwm9KGB9ci5rYg3MjLMrEQlso+Y4d72Tlnl2UvbOwd0T7hJqHvaQN6NFMAdFwTHmAE8SSnTzO2JRxlMvNMdHboMr08B/4kl35fBrezsuh5w+rOcDnBMWSuY4kV46iXMb+kDmVi9gOGvv7tXecbvw7rbkVhvCVN6BjYQnPlMKEgsuHCt0u6e66WqrR3Wy5TqFzDd0/ocuT61xP1ZGPfqtbKN60x/BpdI9Vne268MQTMnSVNbTjIKKDZppy4G1msHzNpe7u1X85MQMO7IHSs3pwENBHjlaWGdoUY7Sup99PfSlqo4MVerHtgJR9n9BWYNOQ2qVRm04rW5ogijm7q2xh0zZoO1hPxY3cOMRQBp1ar7yibwZAL1PBrDt5O6GIj5rA28SjKWCUDdeyK36rGbsRRkKpNwtSJNd/S2HPSrlT07ZfUyoI7ZQBiRMr5ducHGr0NPw5syq5RjWVZBCjLepCwM/WXQzYVqoo8pb7GWugJfcXej7I13sV7ZPfS1sb4QdO703iyFaeqYfsOzmO3w7nbrTcTQzJXQAINiQuXewLpmoh+Omlve4S2YLosMsTDC6o2Pfi7IY7NkzLgr5AW5hADCMtS/VAvg3Gg+GBL/OXArR0MIwEtguJNKwmDMmVBdj18ohyL9KCqV7/HHPfG3jlQrs9pcT97juD42s5xKhzGRJaRWzDiYMS1jzAyrmEpykbFcSUkpySh5Kv3QC7AspWzkWVhLU+WqOK4UYsZb5p7g2RZ95M4LbqXRGS3gqV1c3V11UrXVyF3SSCvVRk/Zx8G2FA5VQOmhfzj3b6+D/W2nWmv4o31b89y0x24Q1dqxv/C/SHFmpS0id57rL2lmvkwriPKBX7kHDh+MYc1LvIiSlRkkRtxBrX4y15/Rhf263dvdzElk0gNKJMVS5L7qh6feo7uAgXlXNrDw9r8AAwDcZ+FzF3NPLwAAAABJRU5ErkJggg==" /></p>
+	<p>Уважаемый абонент!</p>
+	<p>Доступ к запрашиваемому Вами ресурсу Интернет ограничен в соответствии с требованиями законодательства, "Единый реестр запрещённых сайтов".</p>
+	<p>Дополнительную информацию можно получить на сайте Федеральной службы по надзору в сфере связи, информационных технологий и массовых коммуникаций:<br />
+	<a href="http://blocklist.rkn.gov.ru/">http://blocklist.rkn.gov.ru/</a></p>
+	<p>или на сайте Мминистерства Юстиции "Федеральный список экстремистских материалов":<br />
+	<a href="http://minjust.ru/ru/extremist-materials">http://minjust.ru/</a></p>
+	</div>
+		<div class="helper">создано: stRevizor, версия: 0.0.7</div>
+	</div>
+  </body>
+</html>

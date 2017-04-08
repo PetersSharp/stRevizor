@@ -1,0 +1,15 @@
+#!/bin/bash
+
+    if [[ ! -z ${REVIZOR_DNS_CLPORT} && ! -z ${REVIZOR_DNS_FILTRED} ]] ; then
+        __delipt -t filter -D ${IPFW_CHAINMAIN} -p udp --dport 53 -j ${REVIZOR_IPFW_FINAL}
+        __delipt -t filter -D ${IPFW_CHAINMAIN} -p tcp --dport 53 -j ${REVIZOR_IPFW_FINAL}
+    fi
+
+    if [[ ! -z ${REVIZOR_URL_CLPORT} && ! -z ${REVIZOR_URL_FILTRED} ]] ; then
+        if [[ -z ${REVIZOR_DIR_BACKUP} || ! -f ${REVIZOR_DIR_BACKUP}/${REVIZOR_FILE_PORTLIST} ]] ; then
+            __tolog "Backup directory not set or file blockplist.fw not found for URL filter"
+            exit 127
+        fi
+        PPORT=`cat ${REVIZOR_DIR_BACKUP}/${REVIZOR_FILE_PORTLIST}`
+        __delipt -t filter -D ${IPFW_CHAINMAIN} -p tcp -m multiport --dports ${PPORT} -j ${REVIZOR_IPFW_FINAL}
+    fi

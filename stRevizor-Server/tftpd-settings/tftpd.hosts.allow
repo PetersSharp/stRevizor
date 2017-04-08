@@ -1,0 +1,3 @@
+
+in.tftpd: 192.168.xxx.yyy : allow
+in.tftpd: ALL : deny

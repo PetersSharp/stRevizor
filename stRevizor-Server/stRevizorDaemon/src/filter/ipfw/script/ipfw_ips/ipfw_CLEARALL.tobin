@@ -1,0 +1,59 @@
+#!/bin/bash
+
+# this empy template!
+# please, insert this fwall code!
+
+# logger -t "stRevizor-wrapper" "ipfw template '/usr/lib/strevizor/exec/*/${1}.inc' is empty! Edit script!"
+# exit
+
+    if [[ -z ${REVIZOR_IPFW_IFACE} || -z ${REVIZOR_IPFW_NET} ]] ;
+    then
+        exit 127
+    fi
+
+    __listipt -n -t filter -L ${IPFW_CHAINMAIN}
+    if [ $? -eq 0 ] ;
+    then
+        __delipt -t filter -D FORWARD -i ${REVIZOR_IPFW_IFACE} -s ${REVIZOR_IPFW_NET} -j ${IPFW_CHAINMAIN}
+        __addipt -t filter -F ${IPFW_CHAINMAIN}
+        __addipt -t filter -X ${IPFW_CHAINMAIN}
+    fi
+
+    __listipt -n -t filter -L ${IPFW_CHAINBLK}
+    if [ $? -eq 0 ] ;
+    then
+        __addipt -t filter -F "${IPFW_CHAINBLK}"
+        __addipt -t filter -X "${IPFW_CHAINBLK}"
+    fi
+
+    __listipt -n -t filter -L ${IPFW_CHAINWHT}
+    if [ $? -eq 0 ] ;
+    then
+        __addipt -t filter -F "${IPFW_CHAINWHT}"
+        __addipt -t filter -X "${IPFW_CHAINWHT}"
+    fi
+
+    __listipt -n -t filter -L ${IPFW_CHAINBGP}
+    if [ $? -eq 0 ] ;
+    then
+        __addipt -t filter -F "${IPFW_CHAINBGP}"
+        __addipt -t filter -X "${IPFW_CHAINBGP}"
+    fi
+
+    if [[ ! -z ${REVIZOR_IPT_BIN} && ${REVIZOR_IPT_BIN} != "" && -f ${REVIZOR_IPT_BIN} ]] ;
+    then
+        for i in `${REVIZOR_IPT_BIN} -L -n | grep Chain | grep REVIZOR | awk '{ print $2 }'`
+        do
+            ${REVIZOR_IPT_BIN} -t filter -F ${i}
+            ${REVIZOR_IPT_BIN} -t filter -X ${i}
+        done
+    fi
+
+    source ./ipfw_ips/ipfw_URLDEL.inc
+    source ./ipfw_ips/ipfw_DNSDEL.inc
+
+    # or hard method
+    # __addipt -t nat -F PREROUTING
+    # __addipt -t nat -F OUTPUT
+
+

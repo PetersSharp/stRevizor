@@ -1,0 +1,97 @@
+*********************************************************************************
+!!!!   stRevizor 0.0.1.7 - Registry RosKomNadzor blacklist watch daemon    !!!!
+
+Watch FTP/TFTP directory for the presence of RosKomNadzor registry update files
+and makes changes to the iptables/ipset
+
+Main settings:
+
+   Build daemon mode enable: 0
+   Build syslog enable:      0
+   Build debug log enable:   1
+   Debug all message:        0
+   Installation prefix:      /usr
+   Write pid directory:      /usr/var/run
+   BackUp directory:         /var/spool/strevizor
+   Driver/Plugin directory:  /usr/lib/strevizor
+   Default watch directory:  /home/tftp/192.168.220.2
+   Presents libwrap (tcpd):  1
+   Use stdlib qsort:         1
+
+Filtring (Netfilter):
+
+   Path iptables:            /sbin/iptables (/sbin/iptables)
+   Path ipset:               /usr/sbin/ipset (/usr/sbin/ipset)
+   Interface:                eth0.249
+   Network:                  192.168.249.0/24
+   Gateway:                  192.168.249.66
+   Block all timer:          1
+   Engine fwall:             2): iptables + ipset
+   Enable fwall:             1
+   Enable fwall iptables:    1
+   Enable fwall ipset:       1
+
+Network:
+
+   Queue poll size:         1024
+   Request timeout:         3500
+   Max. open socket:        4096
+   Bind all filter to GW:   0
+
+XML parse module:
+
+   Enable:                  1
+   Round all IP to Net:     0
+   Round HTTPS IP to Net:   1
+   Block all IP mode:       0
+   Squid filter enable:     1
+   Debug process info:      1
+   Debug all convert error: 0
+
+DNS filter:
+
+   Enable:                  1
+   Client listen port:      5300
+   Run is blacklist empty:  1
+   Uplink DNS server:       8.8.8.8
+   Return DNS blocked:      NXDOMAIN (not found)
+   Reject TCP DNS packets:  1
+   Bind to GW interface:    0
+   Clear iptables rule:     1
+   Use iptables local rule: 0
+   Use libwrap query access:0
+   Filtred host/net:        192.168.249.0/24
+   Debug process info:      1
+   Debug DNS packets:       0
+
+HTTP/HTTPS filter:
+
+   Enable:                  1
+   Threads poll number:     96
+   Client listen port:      5800
+   Run is blacklist empty:  1
+   Bind to GW interface:    0
+   Clear iptables rule:     1
+   Use iptables local rule: 1
+   Use libwrap query access:0
+   Filtred host/net:        192.168.249.0/24
+   Use TLS SNI->DNS (HTTPS):1
+   Resolv IP->DNS (HTTP):   0
+   Resolv IP->DNS (HTTPS):  1
+   Proxy mode CONNECT:      0
+   Debug process info:      1
+   Debug send/receive info: 0
+   Debug HTTP/HTTPS header: 0
+
+Squid Proxy server:
+
+   Proxy server path:       /usr/local/squid/sbin/squid
+   Proxy filter directory:  /home/tftp/91.202.4.250
+   Proxy server ip:         91.202.4.251
+   Proxy server HTTP port:  3128
+   Proxy transparent HTTP:  3129
+   Proxy transparent HTTPS: 3130
+
+Latest:  https://github.com/PetersSharp/stRevizor/archive/master.zip
+Release: https://github.com/PetersSharp/stRevizor/releases/latest
+*********************************************************************************

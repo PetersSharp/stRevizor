@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FolderPath" xml:space="preserve">
+    <value>установлена папка в которой ищется файл реестра: </value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="imgClear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgClear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgFolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgFolder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgFolderOpen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgFolderOpen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgFolderShared" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgFolderShared.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServerTypeFTP" xml:space="preserve">
+    <value>тип сервера FTP</value>
+  </data>
+  <data name="ServerTypeTFTP" xml:space="preserve">
+    <value>тип сервера TFTP</value>
+  </data>
+  <data name="StatusString1" xml:space="preserve">
+    <value>статус: </value>
+  </data>
+  <data name="AlertDropError1" xml:space="preserve">
+    <value>не выбран период блокировки клиенской сети</value>
+  </data>
+  <data name="LogManagerStart" xml:space="preserve">
+    <value>мониторинг папки в которой ищется файл реестра запущен</value>
+  </data>
+  <data name="LogManagerStop" xml:space="preserve">
+    <value>мониторинг папки в которой ищется файл реестра остановлен</value>
+  </data>
+  <data name="ButtonDisabled" xml:space="preserve">
+    <value>отключено</value>
+  </data>
+  <data name="ButtonSetup" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="ButtonStart" xml:space="preserve">
+    <value>Старт</value>
+  </data>
+  <data name="ButtonStop" xml:space="preserve">
+    <value>Стоп</value>
+  </data>
+  <data name="ButtonTimerDrop" xml:space="preserve">
+    <value>Блокировать</value>
+  </data>
+  <data name="ErrPrvTextEmpty" xml:space="preserve">
+    <value>поле не может быть пустым</value>
+  </data>
+  <data name="fmtStatusDropStart" xml:space="preserve">
+    <value>весь трафик клиенской сети блокирован: {0} мин.</value>
+  </data>
+  <data name="SetupSave" xml:space="preserve">
+    <value>параметры сервера сохранены</value>
+  </data>
+  <data name="StatusManagerStart" xml:space="preserve">
+    <value>менаджер запущен</value>
+  </data>
+  <data name="StatusManagerStop" xml:space="preserve">
+    <value>менаджер остановлен</value>
+  </data>
+  <data name="security_firewall_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\security_firewall_logo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="security_firewall_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\security_firewall_off.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="security_firewall_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\security_firewall_on.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlertDirEmpty" xml:space="preserve">
+    <value>не выбрана папка для мониторинга, необходимо настроить путь к папке</value>
+  </data>
+  <data name="AlertDirNotFound" xml:space="preserve">
+    <value>папка для мониторинга не существует, провеьте настройки</value>
+  </data>
+  <data name="StatusSaveLog" xml:space="preserve">
+    <value>лог сохранен в файл: {0}</value>
+  </data>
+  <data name="AlertDropError2" xml:space="preserve">
+    <value>не удалось передать команду блокировки трафика серверу, сервер занят обраткой предыдущих данных</value>
+  </data>
+  <data name="AlertDropError3" xml:space="preserve">
+    <value>команда блокировки трафика успешно передана серверу</value>
+  </data>
+  <data name="firewall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\firewall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="security_firewall_logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\security_firewall_logo1.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="security_firewall_logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\security_firewall_logo2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogWatchFileFound" xml:space="preserve">
+    <value>обнаружен новый файл: {0} размер: {1}</value>
+  </data>
+  <data name="ajax_loader3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ajax-loader3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlertSendSuccess" xml:space="preserve">
+    <value>полученный реестр передан серверу на обработку</value>
+  </data>
+  <data name="AlertErrorLocal" xml:space="preserve">
+    <value>локальная ошибка обработки данных, дели во вкладке 'Лог'</value>
+  </data>
+  <data name="AlertErrorServer" xml:space="preserve">
+    <value>ошибка обработки данных сервером, дели во вкладке 'Лог'</value>
+  </data>
+  <data name="AlertOtherError" xml:space="preserve">
+    <value>ошибка обработки данных: {0}</value>
+  </data>
+  <data name="imgResendServer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgResendServer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlertSendBusy" xml:space="preserve">
+    <value>не удалось передать данные серверу, сервер занят обраткой предыдущих данных</value>
+  </data>
+  <data name="LogResend" xml:space="preserve">
+    <value>повторная попытка отправки данных..</value>
+  </data>
+  <data name="AlertFileStatError" xml:space="preserve">
+    <value>файл {0}: </value>
+  </data>
+  <data name="LogTaskError" xml:space="preserve">
+    <value>Ошибка нити процесса: {0} -&gt; {1}</value>
+  </data>
+</root>

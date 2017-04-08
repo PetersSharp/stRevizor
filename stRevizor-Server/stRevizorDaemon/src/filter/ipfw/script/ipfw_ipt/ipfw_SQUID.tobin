@@ -1,0 +1,63 @@
+#!/bin/bash
+
+    HTTP_PORT=""
+    HTTPS_PORT=""
+
+    if [[ ! -z ${REVIZOR_TFTP_BIN} && -f ${REVIZOR_TFTP_BIN} ]] ; then
+        if [[ -f ${REVIZOR_FILE_SQUID_PORT_HTTP} ]] ; then
+            HTTP_PORT=`awk '{printf("%s,",$0)}' ${REVIZOR_FILE_SQUID_PORT_HTTP} | sed 's/,\s*$//'`
+            # if remote squid:
+            ${REVIZOR_TFTP_BIN} ${REVIZOR_PROXY_HOST} -m binary -c put ${REVIZOR_FILE_SQUID_PORT_HTTP} `basename ${REVIZOR_FILE_SQUID_PORT_HTTP}`
+            # for TFTPD-HPA command line:
+            # echo -e "binary\nput ${REVIZOR_FILE_SQUID_PORT_HTTP} `basename ${REVIZOR_FILE_SQUID_PORT_HTTP}`\nquit\n" | ${REVIZOR_TFTP_BIN} -v ${REVIZOR_PROXY_HOST}
+        fi
+        if [[ -f ${REVIZOR_FILE_SQUID_PORT_HTTPS} ]] ; then
+            HTTPS_PORT=`awk '{printf("%s,",$0)}' ${REVIZOR_FILE_SQUID_PORT_HTTPS} | sed 's/,\s*$//'`
+            # if remote squid:
+            ${REVIZOR_TFTP_BIN} ${REVIZOR_PROXY_HOST} -m binary -c put ${REVIZOR_FILE_SQUID_PORT_HTTPS} `basename ${REVIZOR_FILE_SQUID_PORT_HTTPS}`
+            # for TFTPD-HPA command line:
+            #echo -e "binary\nput ${REVIZOR_FILE_SQUID_PORT_HTTPS} `basename ${REVIZOR_FILE_SQUID_PORT_HTTPS}`\nquit\n" | ${REVIZOR_TFTP_BIN} -v ${REVIZOR_PROXY_HOST}
+        fi
+        if [[ -f ${REVIZOR_FILE_SQUID_HTTP} ]] ; then
+            # if remote squid:
+            ${REVIZOR_TFTP_BIN} ${REVIZOR_PROXY_HOST} -m binary -c put ${REVIZOR_FILE_SQUID_HTTP} `basename ${REVIZOR_FILE_SQUID_HTTP}`
+            # for TFTPD-HPA command line:
+            #echo -e "binary\nput ${REVIZOR_FILE_SQUID_HTTP} `basename ${REVIZOR_FILE_SQUID_HTTP}`\nquit\n" | ${REVIZOR_TFTP_BIN} -v ${REVIZOR_PROXY_HOST}
+        fi
+        if [[ -f ${REVIZOR_FILE_SQUID_HTTPS} ]] ; then
+            # if remote squid:
+            ${REVIZOR_TFTP_BIN} ${REVIZOR_PROXY_HOST} -m binary -c put ${REVIZOR_FILE_SQUID_HTTPS} `basename ${REVIZOR_FILE_SQUID_HTTPS}`
+            # for TFTPD-HPA command line:
+            #echo -e "binary\nput ${REVIZOR_FILE_SQUID_HTTPS} `basename ${REVIZOR_FILE_SQUID_HTTPS}`\nquit\n" | ${REVIZOR_TFTP_BIN} -v ${REVIZOR_PROXY_HOST}
+        fi
+    fi
+
+    # if local squid:
+    # if [[ ! -z ${REVIZOR_PROXY_BIN} ]] ; then
+        # if [[ -f ${REVIZOR_PROXY_BIN} ]] ; then
+            # ${REVIZOR_PROXY_BIN} -k reconfigure
+        # fi
+    # fi
+
+    if [[ ! -z ${REVIZOR_URL_ENABLE} && ${REVIZOR_URL_ENABLE} -eq 1 ]] ; then
+        exit 0
+    fi
+    if [[ -z ${REVIZOR_PROXY_HOST} || -z ${REVIZOR_PROXY_HTTP_TPORT} || -z ${REVIZOR_PROXY_HTTPS_TPORT} ]] ; then
+        __tolog "Environment not set for Squid ip address or port, see ./revizor-watch -e for more info"
+        exit 127
+    fi
+    if [[ -z ${REVIZOR_URL_FILTRED} && -z ${REVIZOR_IPFW_NET} ]] ; then
+        __tolog "Environment not set for Squid filtred source ip or network address, see ./revizor-watch -e for more info"
+        exit 127
+    fi
+    if [[ -z ${REVIZOR_URL_FILTRED} ]] ; then
+        REVIZOR_URL_FILTRED="${REVIZOR_IPFW_NET}"
+    fi
+    if [[ "${HTTP_PORT}" != "" ]] ; then
+        __delipt -t nat -D PREROUTING -s ${REVIZOR_URL_FILTRED} -i ${REVIZOR_IPFW_IFACE} -p tcp -m tcp -m conntrack --ctstate NEW -m multiport --dports ${HTTP_PORT} -j DNAT --to ${REVIZOR_PROXY_HOST}:${REVIZOR_PROXY_HTTP_TPORT}
+        __addipt -t nat -I PREROUTING -s ${REVIZOR_URL_FILTRED} -i ${REVIZOR_IPFW_IFACE} -p tcp -m tcp -m conntrack --ctstate NEW -m multiport --dports ${HTTP_PORT} -j DNAT --to ${REVIZOR_PROXY_HOST}:${REVIZOR_PROXY_HTTP_TPORT}
+    fi
+    if [[ "${HTTPS_PORT}" != "" ]] ; then
+        __delipt -t nat -D PREROUTING -s ${REVIZOR_URL_FILTRED} -i ${REVIZOR_IPFW_IFACE} -p tcp -m tcp -m conntrack --ctstate NEW -m multiport --dports ${HTTPS_PORT} -j DNAT --to ${REVIZOR_PROXY_HOST}:${REVIZOR_PROXY_HTTPS_TPORT}
+        __addipt -t nat -I PREROUTING -s ${REVIZOR_URL_FILTRED} -i ${REVIZOR_IPFW_IFACE} -p tcp -m tcp -m conntrack --ctstate NEW -m multiport --dports ${HTTPS_PORT} -j DNAT --to ${REVIZOR_PROXY_HOST}:${REVIZOR_PROXY_HTTPS_TPORT}
+    fi

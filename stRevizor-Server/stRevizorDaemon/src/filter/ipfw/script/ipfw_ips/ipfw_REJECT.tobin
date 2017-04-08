@@ -1,0 +1,9 @@
+#!/bin/bash
+
+    if [[ -z ${2} ]] ;
+    then
+        echo "Label: ${1} lost argument param 2" | __tolog
+        exit 0
+    fi
+
+    __addips add "${IPFW_CHAINBLK}TMP" ${2}

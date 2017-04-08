@@ -1,0 +1,22 @@
+#!/bin/bash
+
+    if [[ -z ${REVIZOR_URL_CLPORT} || -z ${REVIZOR_URL_FILTRED} ]] ; then
+        __tolog "Environment not set for URL filter, see ./revizor-watch -e for more info"
+        exit 127
+    fi
+
+    if [[ -z ${2} || ! -f ${2} ]] ; then
+        __tolog "Port list for URL filter not found"
+        exit 127
+    fi
+
+    PPORT=`cat ${2}`
+
+    __delipt -t nat -D PREROUTING -s ${REVIZOR_URL_FILTRED} -i ${REVIZOR_IPFW_IFACE} -p tcp -m tcp -m conntrack --ctstate NEW -m multiport --dports ${PPORT} -j REDIRECT --to-port ${REVIZOR_URL_CLPORT}
+
+    if [[ ! -z ${REVIZOR_IPFW_URL_LOCALR} && ! -z ${REVIZOR_IPFW_IFACE} ]] ; then
+        __delipt -t nat -D OUTPUT -o ${REVIZOR_IPFW_IFACE} -p tcp -m tcp -m multiport --dports ${PPORT} --syn -m state --state NEW -j REDIRECT --to-port ${REVIZOR_URL_CLPORT}
+
+        # local test, remove it..
+        __delipt -t nat -D OUTPUT -o eth0 -p tcp -m tcp -m multiport --dports ${PPORT} --syn -m state --state NEW -j REDIRECT --to-port ${REVIZOR_URL_CLPORT}
+    fi

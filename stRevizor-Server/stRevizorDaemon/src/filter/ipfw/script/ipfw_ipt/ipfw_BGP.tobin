@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# this empy template!
+# please, insert this fwall code!
+
+# logger -t "stRevizor-wrapper" "ipfw template '/usr/lib/strevizor/exec/*/${1}.inc' is empty! Edit script!"
+# exit
+
+    if [[ -z ${2} ]] ;
+    then
+        echo "Label: ${1} lost argument param 2" | __tolog
+        exit 0
+    fi
+
+    __addipt -t filter -I "${IPFW_CHAINBGP}TMP" -d ${2} -j ${REVIZOR_IPFW_FINAL}

@@ -1,0 +1,20 @@
+#!/bin/bash
+
+    if [[ -z ${REVIZOR_DNS_CLPORT} || -z ${REVIZOR_DNS_FILTRED} ]] ; then
+        __tolog "Environment not set for DNS filter, see ./revizor-watch -e for more info"
+        exit 127
+    fi
+
+    __delipt -t nat -D PREROUTING -s ${REVIZOR_DNS_FILTRED} -i ${REVIZOR_IPFW_IFACE} -p udp --dport 53 -j REDIRECT --to-port ${REVIZOR_DNS_CLPORT}
+
+    if [[ ! -z ${REVIZOR_DNS_TCP} ]] ; then
+        __delipt -t nat -D PREROUTING -s ${REVIZOR_DNS_FILTRED} -i ${REVIZOR_IPFW_IFACE} -p tcp --dport 53 -j REDIRECT --to-port ${REVIZOR_DNS_CLPORT}
+    fi
+
+    if [[ ! -z ${REVIZOR_IPFW_DNS_LOCALR} ]] ; then
+        __delipt -t nat -t nat -D OUTPUT -o lo -p udp --dport 53 -j REDIRECT --to-port ${REVIZOR_DNS_CLPORT}
+
+        if [[ ! -z ${REVIZOR_DNS_TCP} ]] ; then
+            __delipt -t nat -t nat -D OUTPUT -o lo -p tcp --dport 53 -j REDIRECT --to-port ${REVIZOR_DNS_CLPORT}
+        fi
+    fi

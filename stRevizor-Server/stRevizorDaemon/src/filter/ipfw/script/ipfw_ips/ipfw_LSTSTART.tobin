@@ -1,0 +1,33 @@
+#!/bin/bash
+
+    __listips list "${IPFW_CHAINBLK}TMP"
+    if [ $? -eq 0 ] ;
+    then
+        __addips flush  "${IPFW_CHAINBLK}TMP"
+    else
+        __addips create "${IPFW_CHAINBLK}TMP" hash:ip family inet hashsize 1024 maxelem 65536
+    fi
+
+    __listips list "${IPFW_CHAINWHT}TMP"
+    if [ $? -eq 0 ] ;
+    then
+        __addips flush  "${IPFW_CHAINWHT}TMP"
+    else
+        __addips create "${IPFW_CHAINWHT}TMP" hash:ip family inet hashsize 1024 maxelem 65536
+    fi
+
+    __listips list "${IPFW_CHAINBGP}TMP"
+    if [ $? -eq 0 ] ;
+    then
+        __addips flush  "${IPFW_CHAINBGP}TMP"
+    else
+        __addips create "${IPFW_CHAINBGP}TMP" hash:net family inet hashsize 1024 maxelem 65536
+    fi
+
+    __listipt -n -t filter -L "${IPFW_CHAINMAIN}TMP"
+    if [ $? -eq 0 ] ;
+    then
+        __addipt -t filter -F "${IPFW_CHAINMAIN}TMP"
+    else
+        __addipt -t filter -N "${IPFW_CHAINMAIN}TMP"
+    fi

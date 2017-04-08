@@ -1,0 +1,33 @@
+#!/bin/bash
+
+    __listipt -n -t filter -L "${IPFW_CHAINBLK}TMP"
+    if [ $? -eq 0 ] ;
+    then
+        __addipt -t filter -F "${IPFW_CHAINBLK}TMP"
+    else
+        __addipt -t filter -N "${IPFW_CHAINBLK}TMP"
+    fi
+
+    __listipt -n -t filter -L "${IPFW_CHAINWHT}TMP"
+    if [ $? -eq 0 ] ;
+    then
+        __addipt -t filter -F "${IPFW_CHAINWHT}TMP"
+    else
+        __addipt -t filter -N "${IPFW_CHAINWHT}TMP"
+    fi
+
+    __listipt -n -t filter -L "${IPFW_CHAINBGP}TMP"
+    if [ $? -eq 0 ] ;
+    then
+        __addipt -t filter -F  "${IPFW_CHAINBGP}TMP"
+    else
+        __addipt -t filter -N "${IPFW_CHAINBGP}TMP"
+    fi
+
+    __listipt -n -t filter -L "${IPFW_CHAINMAIN}TMP"
+    if [ $? -eq 0 ] ;
+    then
+        __addipt -t filter -F "${IPFW_CHAINMAIN}TMP"
+    else
+        __addipt -t filter -N "${IPFW_CHAINMAIN}TMP"
+    fi

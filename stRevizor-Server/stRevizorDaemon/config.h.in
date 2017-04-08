@@ -1,0 +1,415 @@
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* grep utility */
+#undef BIN_GREP
+
+/* Define to 1 if you have the <arpa/inet.h> header file. */
+#undef HAVE_ARPA_INET_H
+
+/* Define to 1 if you have the <bits/wordsize.h> header file. */
+#undef HAVE_BITS_WORDSIZE_H
+
+/* Max. open socket */
+#undef HAVE_BUILD_OPENMAX
+
+/* "Use stdlib qsort" */
+#undef HAVE_BUILD_USE_QSORT
+
+/* stRevizor-watch build version */
+#undef HAVE_BUILD_VER
+
+/* Define to 1 if you have the <ctype.h> header file. */
+#undef HAVE_CTYPE_H
+
+/* enable included debug symbol */
+#undef HAVE_DEBUGSYM
+
+/* send all selected debug module message to syslog */
+#undef HAVE_DEBUG_SYSLOG
+
+/* Define to 1 if you have the declaration of `execvpe', and to 0 if you
+   don't. */
+#undef HAVE_DECL_EXECVPE
+
+/* Define to 1 if you have the declaration of `splice', and to 0 if you don't.
+   */
+#undef HAVE_DECL_SPLICE
+
+/* Define to 1 if you have the <dirent.h> header file. */
+#undef HAVE_DIRENT_H
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* "DNS bind to GW (Netfilter settings) interface" */
+#undef HAVE_DNS_BIND
+
+/* "clear DNS iptables rule after process" */
+#undef HAVE_DNS_CLEAR_RULE
+
+/* "DNS filter client listen port" */
+#undef HAVE_DNS_CLPORT
+
+/* "DNS routine debug info" */
+#undef HAVE_DNS_DEBUGI
+
+/* "DNS packet debug info" */
+#undef HAVE_DNS_DEBUGP
+
+/* "DNS filter run resolver is blacklist empty" */
+#undef HAVE_DNS_EMPTY_RUN
+
+/* "enable DNS filter support" */
+#undef HAVE_DNS_FILTER_ENABLE
+
+/* "DNS filtred network or host address" */
+#undef HAVE_DNS_FILTRED
+
+/* "use DNS local iptables rule" */
+#undef HAVE_DNS_LOCAL_RULE
+
+/* "return DNS target unsigned long ip address" */
+#undef HAVE_DNS_TARGET_ENDIP
+
+/* "return DNS target NXDOMAIN" */
+#undef HAVE_DNS_TARGET_NXDOMAIN
+
+/* "return DNS target user IP" */
+#undef HAVE_DNS_TARGET_USERIP
+
+/* "Use libwrap access for DNS request" */
+#undef HAVE_DNS_TCPDACL
+
+/* "reject DNS TCP ANY,AXFR request to any hosts" */
+#undef HAVE_DNS_TCP_REJECT
+
+/* "DNS filter uplink DNS server" */
+#undef HAVE_DNS_UPSRV
+
+/* Define to 1 if you have the <errno.h> header file. */
+#undef HAVE_ERRNO_H
+
+/* Define to 1 if you have the `execvpe' function. */
+#undef HAVE_EXECVPE
+
+/* Define to 1 if you have the <expat.h> header file. */
+#undef HAVE_EXPAT_H
+
+/* Define to 1 if you have the <fcntl.h> header file. */
+#undef HAVE_FCNTL_H
+
+/* ipset binary find path */
+#undef HAVE_FIND_IPS_BIN
+
+/* iptables binary find path */
+#undef HAVE_FIND_IPT_BIN
+
+/* tftp binary find path */
+#undef HAVE_FIND_TFTP_BIN
+
+/* "Use reverse IP to DNS resolving in HTTPS packets" */
+#undef HAVE_HTTPS_BACK_RESOLV
+
+/* "HTTPS transparent extended proxy server port" */
+#undef HAVE_HTTPS_PROXY_TPORT
+
+/* "Use TLS SNI extension to DNS resolving in HTTPS packets" */
+#undef HAVE_HTTPS_SNI_RESOLV
+
+/* "Allow incoming CONNECT method" */
+#undef HAVE_HTTP_ALLOW_CONNECT
+
+/* "Use reverse IP to DNS resolving in HTTP packets" */
+#undef HAVE_HTTP_BACK_RESOLV
+
+/* "clear HTTP/HTTPS iptables rule after process" */
+#undef HAVE_HTTP_CLEAR_RULE
+
+/* "HTTP/HTTPS filter client listen port" */
+#undef HAVE_HTTP_CLPORT
+
+/* "HTTP/HTTPS send/receive debug info" */
+#undef HAVE_HTTP_DEBUGC
+
+/* "HTTP/HTTPS routine debug info" */
+#undef HAVE_HTTP_DEBUGI
+
+/* "HTTP/HTTPS packet debug info" */
+#undef HAVE_HTTP_DEBUGP
+
+/* "HTTP/HTTPS filter run resolver is blacklist empty" */
+#undef HAVE_HTTP_EMPTY_RUN
+
+/* "enable HTTP/HTTPS filter support" */
+#undef HAVE_HTTP_FILTER_ENABLE
+
+/* "HTTP/HTTPS filtred network or host address" */
+#undef HAVE_HTTP_FILTRED
+
+/* "use HTTP/HTTPS local iptables rule" */
+#undef HAVE_HTTP_LOCAL_RULE
+
+/* "HTTP/HTTPS poll num threads" */
+#undef HAVE_HTTP_NUMTH
+
+/* "Squid proxy server full path" */
+#undef HAVE_HTTP_PROXY_BIN
+
+/* "Squid proxy server filter path" */
+#undef HAVE_HTTP_PROXY_DIR
+
+/* "HTTP/HTTPS filter extended proxy server ip" */
+#undef HAVE_HTTP_PROXY_HOST
+
+/* "HTTP filter extended proxy server port" */
+#undef HAVE_HTTP_PROXY_PORT
+
+/* "HTTP transparent extended proxy server port" */
+#undef HAVE_HTTP_PROXY_TPORT
+
+/* "Use libwrap access for HTTP/HTTPS request" */
+#undef HAVE_HTTP_TCPDACL
+
+/* Define to 1 if you have the <iconv.h> header file. */
+#undef HAVE_ICONV_H
+
+/* Define to 1 if you have the <ifaddrs.h> header file. */
+#undef HAVE_IFADDRS_H
+
+/* inline ASM 32bit support */
+#undef HAVE_INLINE_ASMx32
+
+/* inline ASM 64bit support */
+#undef HAVE_INLINE_ASMx64
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* "fwall index engine" */
+#undef HAVE_IPFW
+
+/* "Bind to GW (Netfilter settings) interface" */
+#undef HAVE_IPFW_BIND
+
+/* "enable iptables block all traffic, if operator signal send" */
+#undef HAVE_IPFW_BLOCKALL
+
+/* "clear iptables rule from init script" */
+#undef HAVE_IPFW_CLEAR_RULE
+
+/* "ip source debug list" */
+#undef HAVE_IPFW_DEBUGL
+
+/* "(Netfilter) enabled" */
+#undef HAVE_IPFW_ENABLE
+
+/* "(Netfilter) final target rule to block chains" */
+#undef HAVE_IPFW_FINAL
+
+/* "(Netfilter) network gateway" */
+#undef HAVE_IPFW_GW
+
+/* "(Netfilter) interface filtring" */
+#undef HAVE_IPFW_IFACE
+
+/* ipset no support */
+#undef HAVE_IPFW_IPS_ENABLE
+
+/* iptables no support */
+#undef HAVE_IPFW_IPT_ENABLE
+
+/* "(Netfilter) filtring network witch mask" */
+#undef HAVE_IPFW_NET
+
+/* "(Netfilter) ipset binary file" */
+#undef HAVE_IPS_BIN
+
+/* "(Netfilter) ipset enabled" */
+#undef HAVE_IPS_ENABLE
+
+/* "(Netfilter) iptables binary file" */
+#undef HAVE_IPT_BIN
+
+/* "(Netfilter) iptables enabled" */
+#undef HAVE_IPT_ENABLE
+
+/* curent kernel version */
+#undef HAVE_KERNEL_VER
+
+/* Define to 1 if you have the <limits.h> header file. */
+#undef HAVE_LIMITS_H
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Define to 1 if you have the <netdb.h> header file. */
+#undef HAVE_NETDB_H
+
+/* Define to 1 if you have the <netinet/in.h> header file. */
+#undef HAVE_NETINET_IN_H
+
+/* Define to 1 if you have the <netinet/tcp.h> header file. */
+#undef HAVE_NETINET_TCP_H
+
+/* "DNS/URL queue size" */
+#undef HAVE_NET_QUEUE
+
+/* "DNS/URL filter timeout" */
+#undef HAVE_NET_TIMEOUT
+
+/* Define to 1 if you have the <poll.h> header file. */
+#undef HAVE_POLL_H
+
+/* CC produce assembly code */
+#undef HAVE_PRODUCE_ASM
+
+/* Define to 1 if you have the <pthread.h> header file. */
+#undef HAVE_PTHREAD_H
+
+/* Define to 1 if you have the <sched.h> header file. */
+#undef HAVE_SCHED_H
+
+/* Define to 1 if you have the <select.h> header file. */
+#undef HAVE_SELECT_H
+
+/* Define to 1 if you have the <signal.h> header file. */
+#undef HAVE_SIGNAL_H
+
+/* Define to 1 if you have the `splice' function. */
+#undef HAVE_SPLICE
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdio.h> header file. */
+#undef HAVE_STDIO_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* curent core cpu number */
+#undef HAVE_SYS_CPU
+
+/* Define to 1 if you have the <sys/ioctl.h> header file. */
+#undef HAVE_SYS_IOCTL_H
+
+/* Define to 1 if you have the <sys/poll.h> header file. */
+#undef HAVE_SYS_POLL_H
+
+/* Define to 1 if you have the <sys/prctl.h> header file. */
+#undef HAVE_SYS_PRCTL_H
+
+/* Define to 1 if you have the <sys/select.h> header file. */
+#undef HAVE_SYS_SELECT_H
+
+/* Define to 1 if you have the <sys/socket.h> header file. */
+#undef HAVE_SYS_SOCKET_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <sys/wait.h> header file. */
+#undef HAVE_SYS_WAIT_H
+
+/* Define to 1 if you have the <time.h> header file. */
+#undef HAVE_TIME_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* "HTTP/HTTPS bind to GW (Netfilter settings) interface" */
+#undef HAVE_URL_BIND
+
+/* "Directory to save the previous processed registry." */
+#undef HAVE_WATCH_BACKUP
+
+/* "run as daemon mode" */
+#undef HAVE_WATCH_DAEMON
+
+/* "Plugin/Drivers directory" */
+#undef HAVE_WATCH_DRIVER
+
+/* "autoconfig JSON format enabled/disabled" */
+#undef HAVE_WATCH_JSON_AUTO_ENABLE
+
+/* "TFTP/FTP directory" */
+#undef HAVE_WATCH_PATH
+
+/* "Write pid directory" */
+#undef HAVE_WATCH_PIDDIR
+
+/* "send error or statistic message to syslog" */
+#undef HAVE_WATCH_SYSLOG
+
+/* "autoconfig XML format enabled/disabled" */
+#undef HAVE_WATCH_XML_AUTO_ENABLE
+
+/* "wrapper process message to log" */
+#undef HAVE_WRAPPER_LOG_ENABLE
+
+/* "block all ip, if DNS/URL filter disabled" */
+#undef HAVE_XML_PARSER_BLOCK_IP_ALL
+
+/* "Parser routine all error debug info" */
+#undef HAVE_XML_PARSER_DEBUGA
+
+/* "Parser routine short error debug info" */
+#undef HAVE_XML_PARSER_DEBUGI
+
+/* "enable xml parser" */
+#undef HAVE_XML_PARSER_ENABLE
+
+/* "manual black IP filter list" */
+#undef HAVE_XML_PARSER_FIX_BLACKIP
+
+/* "manual DNS filter list" */
+#undef HAVE_XML_PARSER_FIX_DNS
+
+/* "manual URL filter list" */
+#undef HAVE_XML_PARSER_FIX_URL
+
+/* "manual white IP filter list" */
+#undef HAVE_XML_PARSER_FIX_WHITEIP
+
+/* "mask, round ip to net" */
+#undef HAVE_XML_PARSER_LE
+
+/* "resolve all ip" */
+#undef HAVE_XML_PARSER_RESOLVE_IP_ALL
+
+/* "resolve https ip" */
+#undef HAVE_XML_PARSER_RESOLVE_IP_HTTPS
+
+/* "create squid filter" */
+#undef HAVE_XML_PARSER_SQUID_ENABLE
+
+/* Define to the sub-directory in which libtool stores uninstalled libraries.
+   */
+#undef LT_OBJDIR
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
