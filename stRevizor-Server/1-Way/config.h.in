@@ -1,0 +1,182 @@
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* grep utility */
+#undef BIN_GREP
+
+/* stRevizor-watch build version */
+#undef HAVE_BUILD_VER
+
+/* Define to 1 if you have the <ctype.h> header file. */
+#undef HAVE_CTYPE_H
+
+/* enable included debug symbol */
+#undef HAVE_DEBUGSYM
+
+/* Define to 1 if you have the <dirent.h> header file. */
+#undef HAVE_DIRENT_H
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* "clear DNS iptables rule after process" */
+#undef HAVE_DNS_CLEAR_RULE
+
+/* "DNS filter client listen port" */
+#undef HAVE_DNS_CLPORT
+
+/* "DNS routine debug info" */
+#undef HAVE_DNS_DEBUGI
+
+/* "DNS packet debug info" */
+#undef HAVE_DNS_DEBUGP
+
+/* "DNS filter run resolver is blacklist empty" */
+#undef HAVE_DNS_EMPTY_RUN
+
+/* "enable DNS filter support" */
+#undef HAVE_DNS_FILTER_ENABLE
+
+/* "use DNS local iptables rule" */
+#undef HAVE_DNS_LOCAL_RULE
+
+/* "DNS filter timeout" */
+#undef HAVE_DNS_TIMEOUT
+
+/* "DNS filter uplink DNS server" */
+#undef HAVE_DNS_UPSRV
+
+/* Define to 1 if you have the <errno.h> header file. */
+#undef HAVE_ERRNO_H
+
+/* Define to 1 if you have the <fcntl.h> header file. */
+#undef HAVE_FCNTL_H
+
+/* ipset binary find path */
+#undef HAVE_FIND_IPS_BIN
+
+/* iptables binary find path */
+#undef HAVE_FIND_IPT_BIN
+
+/* inline ASM 32bit support */
+#undef HAVE_INLINE_ASMx32
+
+/* inline ASM 64bit support */
+#undef HAVE_INLINE_ASMx64
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* "(Netfilter) ipset binary file" */
+#undef HAVE_IPS_BIN
+
+/* ipset no support */
+#undef HAVE_IPS_ENABLE
+
+/* "(Netfilter) iptables binary file" */
+#undef HAVE_IPT_BIN
+
+/* iptables no support */
+#undef HAVE_IPT_ENABLE
+
+/* "(Netfilter) final target rule to block chains" */
+#undef HAVE_IPT_FINAL
+
+/* "(Netfilter) network gateway" */
+#undef HAVE_IPT_GW
+
+/* "(Netfilter) interface filtring" */
+#undef HAVE_IPT_IFACE
+
+/* "(Netfilter) filtring network witch mask" */
+#undef HAVE_IPT_NET
+
+/* curent kernel version */
+#undef HAVE_KERNEL_VER
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Define to 1 if you have the <poll.h> header file. */
+#undef HAVE_POLL_H
+
+/* CC produce assembly code */
+#undef HAVE_PRODUCE_ASM
+
+/* Define to 1 if you have the <signal.h> header file. */
+#undef HAVE_SIGNAL_H
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdio.h> header file. */
+#undef HAVE_STDIO_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <sys/wait.h> header file. */
+#undef HAVE_SYS_WAIT_H
+
+/* Define to 1 if you have the <time.h> header file. */
+#undef HAVE_TIME_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* "Directory to save the previous processed registry." */
+#undef HAVE_WATCH_BACKUP
+
+/* "run as daemon mode" */
+#undef HAVE_WATCH_DAEMON
+
+/* "Plugin/Drivers directory" */
+#undef HAVE_WATCH_DRIVER
+
+/* "TFTP/FTP directory" */
+#undef HAVE_WATCH_PATH
+
+/* "Write pid directory" */
+#undef HAVE_WATCH_PIDDIR
+
+/* "send error or statistic message to syslog" */
+#undef HAVE_WATCH_SYSLOG
+
+/* "wrapper process message to log" */
+#undef HAVE_WRAPPER_LOG_ENABLE
+
+/* "wrapper log name" */
+#undef HAVE_WRAPPER_LOG_NAME
+
+/* Define to the sub-directory in which libtool stores uninstalled libraries.
+   */
+#undef LT_OBJDIR
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS

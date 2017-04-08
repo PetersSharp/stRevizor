@@ -1,0 +1,64 @@
+#
+# Automatically generated file; DO NOT EDIT.
+# stREVIZOR select options Menu
+#
+
+#
+# REVIZOR system setting
+#
+
+#
+# Build options
+#
+
+#
+# stREVIZOR build options, see: https://github.com/PetersSharp/stRevizor
+#
+BUILD_ENABLE_SILENT=1
+BUILD_ENABLE_DEBUGSYM=; # is not set
+
+#
+# directory & locations
+#
+
+#
+# stREVIZOR directory & locations
+#
+BUILD_WATCH_PATH="/home/tftp/192.168.220.2"
+BUILD_WATCH_BACKUP="/var/spool/strevizor"
+BUILD_WATCH_DRIVER="strevizor"
+BUILD_WRAPPER_LOG_ENABLE=1
+BUILD_WRAPPER_LOG_NAME="/var/log/strevizor-wrapper-last.log"
+
+#
+# Netfilter setting
+#
+
+#
+# stREVIZOR Netfilter setting
+#
+BUILD_IPT_BIN="/sbin/iptables"
+BUILD_IPS_BIN="/usr/sbin/ipset"
+BUILD_IPT_IFACE="eth0.249"
+BUILD_IPT_NET="192.168.249.0/24"
+BUILD_IPT_GW="192.168.249.66"
+BUILD_IPT_FINAL="DROP"
+
+#
+# DNS filter setting
+#
+
+#
+# stREVIZOR DNS filter setting
+#
+BUILD_ENABLE_DNS_FILTER=1
+BUILD_DNS_CLPORT=5300
+BUILD_DNS_UPSRV="8.8.8.8"
+BUILD_DNS_TIMEOUT=3500
+BUILD_DNS_LOCALR=1
+BUILD_DNS_EMPTY_RUN=1
+BUILD_DNS_CLEARR=1
+BUILD_DNS_DEBUGI=1
+BUILD_DNS_DEBUGP=; # is not set
+BUILD_WATCH_DAEMON=; # is not set
+BUILD_WATCH_SYSLOG=; # is not set

@@ -1,0 +1,4 @@
+rg FM:CFG CFG
+ri ^[a-z]:
+r ^[^/] /\i/\0
+e ^ok/
