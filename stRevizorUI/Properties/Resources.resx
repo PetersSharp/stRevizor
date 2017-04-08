@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="fmtBTNStartBusy" xml:space="preserve">
+    <value>повтор: {0} минут</value>
+  </data>
+  <data name="fmtExportPath" xml:space="preserve">
+    <value>файл списка реестра сохранен: {0}</value>
+  </data>
+  <data name="fmtImportNotFound" xml:space="preserve">
+    <value>файл реестра ненайден: {0}</value>
+  </data>
+  <data name="fmtImportOnLoadNotFound" xml:space="preserve">
+    <value>файл импорта данных '{0}' не найден</value>
+  </data>
+  <data name="fmtImportOnLoadNotSupport" xml:space="preserve">
+    <value>файл импорта данных '{0}' имеет неверное расширение</value>
+  </data>
+  <data name="fmtImportOnLoadPath" xml:space="preserve">
+    <value>файл импорта данных '{0}' загружен, нажмите 'Старт' для обработки</value>
+  </data>
+  <data name="fmtImportPath" xml:space="preserve">
+    <value>файл реестра выбран: {0}</value>
+  </data>
+  <data name="fmtImportTypeError" xml:space="preserve">
+    <value>файл реестра имеет неверное расширение: ({0}) {1}</value>
+  </data>
+  <data name="fmtTftpServerBusy" xml:space="preserve">
+    <value>сервер занят обработкой предыдущих данных, повтор через {0} минуты</value>
+  </data>
+  <data name="fmtTftpServerSkipBusy" xml:space="preserve">
+    <value>сервер не готов принять данные, превышен лимит попыток: {0}</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="imgClear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgClear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgFolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgFolder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgFolderOpen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgFolderOpen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgFolderShared" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgFolderShared.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="txtBGWCancelled" xml:space="preserve">
+    <value>обработка реестра остановлена</value>
+  </data>
+  <data name="txtBGWCompleted" xml:space="preserve">
+    <value>обработка реестра закончена</value>
+  </data>
+  <data name="txtBGWNotify" xml:space="preserve">
+    <value>загрузите новый реестр</value>
+  </data>
+  <data name="txtBGWProccess" xml:space="preserve">
+    <value>идет обработка реестра..</value>
+  </data>
+  <data name="txtBGWProcessAbort" xml:space="preserve">
+    <value>обработка реестра прервана</value>
+  </data>
+  <data name="txtBTNStart" xml:space="preserve">
+    <value>Старт!</value>
+  </data>
+  <data name="txtBTNStop" xml:space="preserve">
+    <value>Стоп!</value>
+  </data>
+  <data name="txtBTNWait" xml:space="preserve">
+    <value>Ожидаю..</value>
+  </data>
+  <data name="txtErrorProvSetupIpTftp" xml:space="preserve">
+    <value>адрес TFTP сервера не может быть пустым</value>
+  </data>
+  <data name="txtErrorProvSetupLog" xml:space="preserve">
+    <value>имя файла журнала не может быть пустым</value>
+  </data>
+  <data name="txtImportOnLoadEmpty" xml:space="preserve">
+    <value>файл импорта данных не имеет имени</value>
+  </data>
+  <data name="txtImportOnLoadError" xml:space="preserve">
+    <value>ошибка импорта данных</value>
+  </data>
+  <data name="txtImportOnLoadNotExportType" xml:space="preserve">
+    <value>файл импорта данных '{0}' имеет неизвестный тип</value>
+  </data>
+  <data name="txtImportOnLoadProccessEnd" xml:space="preserve">
+    <value>файл импорта данных успешно отправлен на сервер</value>
+  </data>
+  <data name="txtImportPathNotComplette" xml:space="preserve">
+    <value>не выбран файл реестра, register.zip или dump.xml</value>
+  </data>
+  <data name="txtImportProccessNotComplette" xml:space="preserve">
+    <value>обработка реестра выполнена некорректно</value>
+  </data>
+  <data name="txtProccessNotComplette" xml:space="preserve">
+    <value>обработка реестра не проведена, нажмите кнопку 'Старт'</value>
+  </data>
+  <data name="txtSetupTftpServerNotComplette" xml:space="preserve">
+    <value>не определен IP адрес TFTP сервера</value>
+  </data>
+  <data name="txtTftpServerEndBusy" xml:space="preserve">
+    <value>сервер готов к обработке новых данных</value>
+  </data>
+</root>

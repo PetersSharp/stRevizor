@@ -1,0 +1,19 @@
+# default: on
+# description: The telnet server serves telnet sessions; it uses \
+#	unencrypted username/password pairs for authentication.
+service tftp
+{
+	socket_type	= dgram
+	protocol	= udp
+	port		= 69
+	wait		= yes
+	user		= root
+	server		= /usr/sbin/in.tftpd
+	server_args	= -c -v -t 10 -u nobody -m /etc/tftpd.remap -s /home/tftp
+	log_on_success	+= HOST DURATION USERID
+	log_on_failure	+= HOST USERID
+	nice		= 1
+	per_source	= 11
+	cps		= 20 2
+	disable		= no
+}

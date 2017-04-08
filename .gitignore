@@ -1,0 +1,59 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+
+WinRAR.ini
+testAPIKey.txt
+BuildArchive.cmd
+*.tlog
+*.cache
+*.suo
+*.pdb
+*.pfx
+*.jbf
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
+*.userprefs
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Bb]uild/
+[Dd]ist/
